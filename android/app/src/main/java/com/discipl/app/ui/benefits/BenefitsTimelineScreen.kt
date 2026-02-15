@@ -29,6 +29,7 @@ import androidx.compose.material.icons.filled.Lock
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -55,6 +56,8 @@ fun BenefitsTimelineScreen(
     viewModel: BenefitsViewModel = hiltViewModel()
 ) {
     val state by viewModel.state.collectAsState()
+
+    LaunchedEffect(Unit) { viewModel.loadData() }
 
     Box(modifier = modifier.fillMaxSize()) {
         AnimatedBackground()
@@ -195,10 +198,10 @@ private fun MilestoneCard(
                     RoundedCornerShape(12.dp)
                 )
                 .clickable {
-                    if (isAccessible) {
+                    if (isPassed && isAccessible) {
                         isExpanded = !isExpanded
                         view.performHapticFeedback(HapticFeedbackConstants.KEYBOARD_TAP)
-                    } else {
+                    } else if (!isAccessible) {
                         onLockedTap()
                     }
                 }

@@ -35,7 +35,7 @@ class BenefitsViewModel @Inject constructor(
         loadData()
     }
 
-    private fun loadData() {
+    fun loadData() {
         viewModelScope.launch {
             val profile = userProfileDao.get()
             val days = streakService.getCurrentStreakDays()
