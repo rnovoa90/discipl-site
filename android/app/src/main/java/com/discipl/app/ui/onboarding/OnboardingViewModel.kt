@@ -176,7 +176,7 @@ class OnboardingViewModel @Inject constructor(
     fun setScoreAnimationDone() {
         _state.value = _state.value.copy(scoreAnimationDone = true)
         val s = _state.value
-        analyticsService.quizScoreCalculated(s.dependencyScore, s.selectedQuitType, s.selectedDuration)
+        analyticsService.quizScoreCalculated(s.dependencyScore)
     }
 
     fun updatePlanProgress(progress: Float) {

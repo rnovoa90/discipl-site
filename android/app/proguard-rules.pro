@@ -2,6 +2,10 @@
 -keep class * extends androidx.room.RoomDatabase
 -dontwarn androidx.room.paging.**
 
+# SQLCipher
+-keep class net.sqlcipher.** { *; }
+-dontwarn net.sqlcipher.**
+
 # Gson
 -keepattributes Signature
 -keepattributes *Annotation*

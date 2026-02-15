@@ -2,6 +2,7 @@ package com.discipl.app.service
 
 import android.content.Context
 import android.util.Log
+import com.discipl.app.BuildConfig
 import com.posthog.PostHog
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
@@ -9,7 +10,7 @@ import javax.inject.Singleton
 
 /**
  * PostHog analytics wrapper. Same event names as iOS.
- * Privacy: relapse_logged sends ONLY streak_days_lost.
+ * Privacy: relapse_logged sends ONLY streak_days_lost. No PII is sent.
  */
 @Singleton
 class AnalyticsService @Inject constructor(
@@ -29,7 +30,9 @@ class AnalyticsService @Inject constructor(
         } catch (_: Exception) {
             // PostHog not configured yet — ignore
         }
-        Log.d(TAG, "[$event] ${properties ?: emptyMap<String, Any>()}")
+        if (BuildConfig.DEBUG) {
+            Log.d(TAG, "[$event] ${properties ?: emptyMap<String, Any>()}")
+        }
     }
 
     // --- Onboarding ---
@@ -39,11 +42,8 @@ class AnalyticsService @Inject constructor(
     fun paywallDismissed(placement: String) = track("paywall_dismissed", mapOf("placement" to placement))
     fun subscriptionStarted(plan: String, trial: Boolean) = track("subscription_started", mapOf("plan" to plan, "trial" to trial))
     fun onboardingCompleted(isPremium: Boolean) = track("onboarding_completed", mapOf("is_premium" to isPremium))
-    fun quizScoreCalculated(score: Int, quitType: String?, duration: String?) {
-        val props = mutableMapOf<String, Any>("score" to score)
-        quitType?.let { props["quit_type"] = it }
-        duration?.let { props["duration"] = it }
-        track("quiz_score_calculated", props)
+    fun quizScoreCalculated(score: Int) {
+        track("quiz_score_calculated", mapOf("score" to score))
     }
 
     // --- Core Engagement ---

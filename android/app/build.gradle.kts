@@ -6,6 +6,15 @@ plugins {
     id("com.google.dagger.hilt.android")
 }
 
+import java.util.Properties
+
+// Load local.properties for API keys
+val localProps = Properties()
+val localPropsFile = rootProject.file("local.properties")
+if (localPropsFile.exists()) {
+    localPropsFile.inputStream().use { localProps.load(it) }
+}
+
 android {
     namespace = "com.discipl.app"
     compileSdk = 35
@@ -19,11 +28,11 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        // SDK keys — override in local.properties or CI secrets
-        buildConfigField("String", "POSTHOG_API_KEY", "\"${project.findProperty("POSTHOG_API_KEY") ?: ""}\"")
-        buildConfigField("String", "POSTHOG_HOST", "\"${project.findProperty("POSTHOG_HOST") ?: "https://us.i.posthog.com"}\"")
-        buildConfigField("String", "REVENUECAT_API_KEY", "\"${project.findProperty("REVENUECAT_API_KEY") ?: ""}\"")
-        buildConfigField("String", "SUPERWALL_API_KEY", "\"${project.findProperty("SUPERWALL_API_KEY") ?: ""}\"")
+        // SDK keys — loaded from local.properties (gitignored) or CI env vars
+        buildConfigField("String", "POSTHOG_API_KEY", "\"${localProps.getProperty("POSTHOG_API_KEY", System.getenv("POSTHOG_API_KEY") ?: "")}\"")
+        buildConfigField("String", "POSTHOG_HOST", "\"${localProps.getProperty("POSTHOG_HOST", System.getenv("POSTHOG_HOST") ?: "https://us.i.posthog.com")}\"")
+        buildConfigField("String", "REVENUECAT_API_KEY", "\"${localProps.getProperty("REVENUECAT_API_KEY", System.getenv("REVENUECAT_API_KEY") ?: "")}\"")
+        buildConfigField("String", "SUPERWALL_API_KEY", "\"${localProps.getProperty("SUPERWALL_API_KEY", System.getenv("SUPERWALL_API_KEY") ?: "")}\"")
     }
 
     buildTypes {
@@ -75,10 +84,14 @@ dependencies {
     // Navigation
     implementation("androidx.navigation:navigation-compose:2.8.5")
 
-    // Room
+    // Room + SQLCipher encryption
     implementation("androidx.room:room-runtime:2.6.1")
     implementation("androidx.room:room-ktx:2.6.1")
     ksp("androidx.room:room-compiler:2.6.1")
+    implementation("net.zetetic:android-database-sqlcipher:4.5.4")
+
+    // Security (EncryptedSharedPreferences, Keystore)
+    implementation("androidx.security:security-crypto:1.1.0-alpha06")
 
     // Hilt
     implementation("com.google.dagger:hilt-android:2.53.1")

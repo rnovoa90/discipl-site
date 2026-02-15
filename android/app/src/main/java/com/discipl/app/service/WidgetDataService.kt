@@ -2,12 +2,14 @@ package com.discipl.app.service
 
 import android.content.Context
 import android.content.SharedPreferences
+import androidx.security.crypto.EncryptedSharedPreferences
+import androidx.security.crypto.MasterKey
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
 import javax.inject.Singleton
 
 /**
- * Shares streak data between the main app and Glance widgets via SharedPreferences.
+ * Shares streak data between the main app and Glance widgets via EncryptedSharedPreferences.
  * Call update() whenever streak data changes (check-in, relapse, launch).
  */
 @Singleton
@@ -15,7 +17,7 @@ class WidgetDataService @Inject constructor(
     @ApplicationContext private val context: Context
 ) {
     companion object {
-        private const val PREFS_NAME = "discipl_widget_data"
+        private const val PREFS_NAME = "discipl_widget_data_enc"
         private const val KEY_CURRENT_STREAK_DAYS = "widget_currentStreakDays"
         private const val KEY_STREAK_START_DATE = "widget_streakStartDate"
         private const val KEY_NEXT_MILESTONE_DAY = "widget_nextMilestoneDay"
@@ -23,8 +25,19 @@ class WidgetDataService @Inject constructor(
         private const val KEY_LANGUAGE = "widget_language"
     }
 
-    private val prefs: SharedPreferences
-        get() = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+    private val prefs: SharedPreferences by lazy {
+        val masterKey = MasterKey.Builder(context)
+            .setKeyScheme(MasterKey.KeyScheme.AES256_GCM)
+            .build()
+
+        EncryptedSharedPreferences.create(
+            context,
+            PREFS_NAME,
+            masterKey,
+            EncryptedSharedPreferences.PrefKeyEncryptionScheme.AES256_SIV,
+            EncryptedSharedPreferences.PrefValueEncryptionScheme.AES256_GCM
+        )
+    }
 
     fun update(
         currentStreakDays: Int,
