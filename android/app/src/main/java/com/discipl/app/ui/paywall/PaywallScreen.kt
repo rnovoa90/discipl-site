@@ -111,7 +111,9 @@ class PaywallViewModel @Inject constructor(
 
             val lang = _state.value.language
             val yearlyLabel = yearly?.let { "${it.product.price.formatted}/${if (lang == "en") "year" else "año"}" }
+                ?: "US\$79.99/${if (lang == "en") "year" else "año"}"
             val monthlyLabel = monthly?.let { "${it.product.price.formatted}/${if (lang == "en") "month" else "mes"}" }
+                ?: "US\$9.99/${if (lang == "en") "month" else "mes"}"
 
             val savings = if (yearly != null && monthly != null) {
                 val monthlyAmount = monthly.product.price.amountMicros
@@ -123,7 +125,9 @@ class PaywallViewModel @Inject constructor(
                         if (lang == "en") "Save $saved%" else "Ahorrá $saved%"
                     } else null
                 } else null
-            } else null
+            } else {
+                if (lang == "en") "Save 33%" else "Ahorrá 33%"
+            }
 
             _state.value = _state.value.copy(
                 packages = packages,

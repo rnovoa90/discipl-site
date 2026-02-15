@@ -104,7 +104,7 @@ fun SettingsScreen(
             // Notifications
             SettingsSection("NOTIFICACIONES") {
                 SettingsToggle(
-                    title = "Motivación matutina",
+                    title = "Motivación diaria",
                     enabled = state.morningMotivationEnabled,
                     onToggle = { viewModel.toggleMorningMotivation(it) }
                 )
@@ -115,7 +115,7 @@ fun SettingsScreen(
                     isPremium = !state.isPremium
                 )
                 SettingsToggle(
-                    title = "Check-in nocturno",
+                    title = "Check-in diario",
                     enabled = state.eveningCheckInEnabled,
                     onToggle = { viewModel.toggleEveningCheckIn(it) },
                     isPremium = !state.isPremium

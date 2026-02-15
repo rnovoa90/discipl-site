@@ -237,7 +237,8 @@ private fun MilestoneCard(
             Text(
                 text = milestone.title(language),
                 style = AppTypography.body.copy(fontWeight = FontWeight.Bold, fontSize = 15.sp),
-                color = AppColors.textPrimary
+                color = AppColors.textPrimary,
+                modifier = if (!isAccessible) Modifier.blur(6.dp) else Modifier
             )
 
             // Detail text (blurred if locked)
