@@ -160,7 +160,7 @@ fun HomeScreen(
             }
 
             // Task section (days 0-30)
-            if (state.currentStreakDays <= 30 && (state.profile?.dailyTaskEnabled != false)) {
+            if (state.currentStreakDays <= 30) {
                 if (state.taskText != null) {
                     TaskCard(state.taskText!!, state.language)
                 } else if (!state.isPremium) {

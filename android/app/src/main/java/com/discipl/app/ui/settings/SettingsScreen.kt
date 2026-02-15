@@ -110,7 +110,8 @@ fun SettingsScreen(
                 SettingsToggle(
                     title = "Contenido diario",
                     enabled = state.dailyTaskEnabled,
-                    onToggle = { viewModel.toggleDailyTask(it) }
+                    onToggle = { viewModel.toggleDailyTask(it) },
+                    isPremium = !state.isPremium
                 )
             }
 

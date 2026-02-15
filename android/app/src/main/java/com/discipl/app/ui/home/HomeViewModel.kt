@@ -67,10 +67,8 @@ class HomeViewModel @Inject constructor(
             val nextMilestone = benefitsService.getNextMilestone(days)
             val currentMilestone = benefitsService.getAllMilestones().firstOrNull { it.day == days }
 
-            val taskText = if (days <= 30 && (profile?.dailyTaskEnabled != false)) {
-                if (days <= 3 || isPremium) {
-                    insightService.getTaskForDay(days)?.text(language)
-                } else null
+            val taskText = if (days <= 30 && isPremium && (profile?.dailyTaskEnabled != false)) {
+                insightService.getTaskForDay(days)?.text(language)
             } else null
 
             val insightText = if (days > 30 && isPremium && (profile?.dailyInsightEnabled != false)) {
