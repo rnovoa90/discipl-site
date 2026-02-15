@@ -40,6 +40,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.discipl.app.data.model.Relapse
+import androidx.compose.material.icons.filled.Favorite
 import com.discipl.app.ui.components.DangerButton
 import com.discipl.app.ui.components.PrimaryButton
 import com.discipl.app.ui.components.SecondaryButton
@@ -245,6 +246,50 @@ fun RelapseFlow(
 
                 PrimaryButton(
                     text = if (language == "en") "Save" else "Guardar",
+                    onClick = { step = 2 }
+                )
+                Spacer(Modifier.height(AppSpacing.sm.dp))
+                SecondaryButton(
+                    text = if (language == "en") "Skip" else "Saltar",
+                    onClick = {
+                        selectedTimeOfDay = null
+                        selectedTrigger = null
+                        selectedMood = 0
+                        notes = ""
+                        step = 2
+                    }
+                )
+            }
+
+            // Step 2: Encouragement
+            2 -> {
+                Spacer(Modifier.height(AppSpacing.xxl.dp))
+
+                Icon(
+                    Icons.Default.Favorite,
+                    contentDescription = null,
+                    tint = AppColors.success,
+                    modifier = Modifier.size(60.dp)
+                )
+                Spacer(Modifier.height(AppSpacing.xl.dp))
+                Text(
+                    text = if (language == "en") "Every attempt makes you stronger." else "Cada intento te hace más fuerte.",
+                    style = AppTypography.sectionHeader,
+                    color = AppColors.textPrimary,
+                    textAlign = TextAlign.Center
+                )
+                Spacer(Modifier.height(AppSpacing.sm.dp))
+                Text(
+                    text = if (language == "en") "Your new streak starts now." else "Tu nueva racha comienza ahora.",
+                    style = AppTypography.body,
+                    color = AppColors.textSecondary,
+                    textAlign = TextAlign.Center
+                )
+
+                Spacer(Modifier.height(AppSpacing.xxl.dp))
+
+                PrimaryButton(
+                    text = if (language == "en") "Continue" else "Continuar",
                     onClick = {
                         onConfirm(
                             selectedTimeOfDay,
@@ -253,11 +298,6 @@ fun RelapseFlow(
                             notes.ifBlank { null }
                         )
                     }
-                )
-                Spacer(Modifier.height(AppSpacing.sm.dp))
-                SecondaryButton(
-                    text = if (language == "en") "Skip" else "Saltar",
-                    onClick = { onConfirm(null, null, null, null) }
                 )
             }
         }
