@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discipl — Politica de Privacidad</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: #0D1117;
+      color: #E6EDF3;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      padding: 2rem 1.25rem;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 0.25rem;
+    }
+
+    .updated {
+      font-size: 0.875rem;
+      color: #8B949E;
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #00B4D8;
+      margin-top: 2.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    p, li {
+      font-size: 1rem;
+      color: #C9D1D9;
+      margin-bottom: 0.75rem;
+    }
+
+    ul, ol {
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    li { margin-bottom: 0.4rem; }
+
+    a {
+      color: #00B4D8;
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    strong { color: #E6EDF3; }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #21262D;
+      margin: 2.5rem 0;
+    }
+
+    .footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #21262D;
+      font-size: 0.8125rem;
+      color: #8B949E;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <h1>Politica de Privacidad</h1>
+    <p class="updated">Ultima actualizacion: febrero de 2026</p>
+
+    <p>
+      Discipl ("nosotros", "la aplicacion") es una aplicacion para iOS disenada para ayudar a los usuarios a
+      registrar rachas relacionadas con el abandono de la pornografia. Tu privacidad es nuestra prioridad absoluta.
+      Esta Politica de Privacidad describe como recopilamos, usamos y protegemos tu informacion cuando utilizas
+      Discipl.
+    </p>
+
+    <h2>1. Informacion que se almacena localmente en tu dispositivo</h2>
+    <p>
+      Discipl almacena todos los datos principales de la aplicacion <strong>exclusivamente en tu dispositivo</strong>
+      mediante SwiftData (el framework de persistencia local de Apple). Esta informacion <strong>nunca</strong> se
+      transmite a ningun servidor externo. Los datos locales incluyen:
+    </p>
+    <ul>
+      <li>Rachas activas e historicas</li>
+      <li>Registros de recaidas y detalles asociados (detonantes, estado de animo, notas)</li>
+      <li>Check-ins diarios</li>
+      <li>Notas personales</li>
+      <li>Preferencias y configuraciones de la aplicacion</li>
+    </ul>
+    <p>
+      Si eliminas la aplicacion de tu dispositivo, todos estos datos se eliminan de forma permanente e
+      irrecuperable.
+    </p>
+
+    <h2>2. Informacion recopilada por servicios de terceros</h2>
+    <p>
+      Discipl integra dos servicios de terceros que procesan datos limitados. A continuacion se describe cada uno:
+    </p>
+
+    <h2>2.1 Analitica — PostHog</h2>
+    <p>
+      Utilizamos el SDK de <a href="https://posthog.com" target="_blank" rel="noopener">PostHog</a> para recopilar
+      eventos de uso <strong>anonimos</strong> que nos permiten mejorar la aplicacion. Los eventos que se envian
+      incluyen:
+    </p>
+    <ul>
+      <li>Apertura de la aplicacion</li>
+      <li>Vistas de pantalla</li>
+      <li>Hitos de racha alcanzados</li>
+      <li>Numero de dias de racha perdidos al registrar una recaida (<code>streak_days_lost</code>)</li>
+    </ul>
+    <p>
+      <strong>PostHog NO recibe:</strong> detalles de detonantes, estado de animo, notas personales ni ningun
+      otro dato sensible relacionado con las recaidas. Los eventos se asocian a un identificador anonimo generado
+      por el dispositivo, no a datos personales identificables.
+    </p>
+    <p>
+      Para mas informacion, consulta la
+      <a href="https://posthog.com/privacy" target="_blank" rel="noopener">Politica de Privacidad de PostHog</a>.
+    </p>
+
+    <h2>2.2 Suscripciones — RevenueCat</h2>
+    <p>
+      Utilizamos el SDK de <a href="https://www.revenuecat.com" target="_blank" rel="noopener">RevenueCat</a>
+      (sobre StoreKit 2 de Apple) para gestionar las suscripciones dentro de la aplicacion. RevenueCat procesa
+      datos de transacciones de compra segun las politicas de Apple, incluyendo:
+    </p>
+    <ul>
+      <li>Identificador de transaccion de Apple</li>
+      <li>Tipo de producto adquirido y estado de la suscripcion</li>
+      <li>Identificador anonimo de la aplicacion</li>
+    </ul>
+    <p>
+      RevenueCat no tiene acceso a tu nombre, correo electronico ni a ningun dato almacenado localmente en
+      Discipl. Para mas informacion, consulta la
+      <a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">Politica de Privacidad de RevenueCat</a>.
+    </p>
+
+    <h2>3. Informacion que NO recopilamos</h2>
+    <p>Discipl <strong>no</strong> recopila, almacena ni transmite:</p>
+    <ul>
+      <li>Nombre, correo electronico ni datos de contacto</li>
+      <li>Cuentas de usuario ni credenciales de autenticacion</li>
+      <li>Ubicacion geografica</li>
+      <li>Contactos, fotos, camara ni microfono</li>
+      <li>Datos de salud de Apple Health</li>
+      <li>Contenido de notas personales, detalles de detonantes o estado de animo</li>
+      <li>Datos de navegacion o historial web</li>
+    </ul>
+
+    <h2>4. Notificaciones</h2>
+    <p>
+      Discipl utiliza <strong>notificaciones locales</strong> exclusivamente. Las notificaciones se programan y
+      se gestionan directamente en tu dispositivo. No utilizamos servidores de push ni servicios de notificacion
+      de terceros.
+    </p>
+
+    <h2>5. Retencion de datos</h2>
+    <ul>
+      <li>
+        <strong>Datos locales:</strong> permanecen en tu dispositivo mientras tengas la aplicacion instalada.
+        Se eliminan al desinstalar la app.
+      </li>
+      <li>
+        <strong>PostHog:</strong> los eventos anonimos se retienen segun la politica de retencion de PostHog.
+        Al ser anonimos, no es posible vincularlos a un usuario especifico.
+      </li>
+      <li>
+        <strong>RevenueCat:</strong> los datos de transacciones se retienen conforme a las politicas de Apple
+        y RevenueCat para la gestion de suscripciones.
+      </li>
+    </ul>
+
+    <h2>6. Seguridad de los datos</h2>
+    <p>
+      Los datos almacenados localmente estan protegidos por las medidas de seguridad integradas de iOS,
+      incluyendo el cifrado del sistema de archivos y la proteccion con codigo o biometria del dispositivo.
+      Las comunicaciones con PostHog y RevenueCat se realizan mediante conexiones cifradas (HTTPS/TLS).
+    </p>
+
+    <h2>7. Privacidad de menores</h2>
+    <p>
+      Discipl esta disenada para usuarios <strong>mayores de 18 anos</strong>. No recopilamos deliberadamente
+      informacion de menores de edad. Si eres padre o tutor y crees que un menor ha utilizado la aplicacion,
+      contactanos a <a href="mailto:info@discipl.win">info@discipl.win</a> para que podamos tomar las medidas
+      adecuadas.
+    </p>
+
+    <h2>8. Tus derechos</h2>
+    <p>
+      Dado que la gran mayoria de los datos se almacenan exclusivamente en tu dispositivo, tu tienes el
+      control total. Puedes:
+    </p>
+    <ul>
+      <li><strong>Acceder</strong> a tus datos directamente dentro de la aplicacion.</li>
+      <li><strong>Eliminar</strong> todos los datos desinstalando la aplicacion.</li>
+      <li>
+        <strong>Solicitar informacion</strong> sobre los datos anonimos procesados por PostHog o RevenueCat
+        escribiendo a <a href="mailto:info@discipl.win">info@discipl.win</a>.
+      </li>
+    </ul>
+    <p>
+      Si resides en una jurisdiccion con leyes de proteccion de datos (como el RGPD de la Union Europea o la
+      CCPA de California), puedes ejercer tus derechos aplicables contactandonos al correo indicado.
+    </p>
+
+    <h2>9. Transferencias internacionales de datos</h2>
+    <p>
+      Los datos anonimos enviados a PostHog y RevenueCat pueden procesarse en servidores ubicados fuera de tu
+      pais de residencia. Ambos servicios cumplen con estandares de proteccion de datos reconocidos
+      internacionalmente.
+    </p>
+
+    <h2>10. Cambios a esta politica</h2>
+    <p>
+      Podemos actualizar esta Politica de Privacidad periodicamente. Cuando lo hagamos, actualizaremos la
+      fecha de "Ultima actualizacion" en la parte superior de este documento. Te recomendamos revisar esta
+      politica de forma periodica. El uso continuado de la aplicacion tras la publicacion de cambios implica
+      la aceptacion de la politica actualizada.
+    </p>
+
+    <h2>11. Contacto</h2>
+    <p>
+      Si tienes preguntas o inquietudes sobre esta Politica de Privacidad, puedes escribirnos a:
+    </p>
+    <p>
+      <strong>Discipl</strong><br>
+      Correo electronico: <a href="mailto:info@discipl.win">info@discipl.win</a><br>
+      Sitio web: <a href="https://discipl.win" target="_blank" rel="noopener">discipl.win</a>
+    </p>
+
+    <div class="footer">
+      &copy; 2026 Discipl. Todos los derechos reservados.
+    </div>
+
+  </div>
+</body>
+</html>
