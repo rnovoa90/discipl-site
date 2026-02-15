@@ -38,7 +38,7 @@ class JournalViewModel @Inject constructor(
         loadData()
     }
 
-    private fun loadData() {
+    fun loadData() {
         viewModelScope.launch {
             val profile = userProfileDao.get()
             _state.value = JournalUiState(

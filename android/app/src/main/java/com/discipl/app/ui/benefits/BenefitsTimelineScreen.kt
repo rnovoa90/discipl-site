@@ -9,8 +9,10 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -112,12 +114,26 @@ private fun MilestoneCard(
     var isExpanded by remember { mutableStateOf(false) }
     val view = LocalView.current
 
-    Row(modifier = Modifier.fillMaxWidth()) {
+    Row(modifier = Modifier.fillMaxWidth().height(IntrinsicSize.Min)) {
         // Timeline line + circle
-        Column(
-            horizontalAlignment = Alignment.CenterHorizontally,
-            modifier = Modifier.width(40.dp)
+        Box(
+            modifier = Modifier.width(40.dp).fillMaxHeight(),
+            contentAlignment = Alignment.TopCenter
         ) {
+            // Continuous connector line behind the circle
+            if (!isLast) {
+                Box(
+                    modifier = Modifier
+                        .width(2.dp)
+                        .fillMaxHeight()
+                        .padding(top = 14.dp)
+                        .background(
+                            if (isPassed) AppColors.success.copy(alpha = 0.4f)
+                            else AppColors.textSecondary.copy(alpha = 0.15f)
+                        )
+                )
+            }
+            // Circle on top of the line
             Box(
                 modifier = Modifier
                     .size(28.dp)
@@ -159,18 +175,6 @@ private fun MilestoneCard(
                         color = AppColors.textSecondary
                     )
                 }
-            }
-
-            if (!isLast) {
-                Box(
-                    modifier = Modifier
-                        .width(2.dp)
-                        .height(80.dp)
-                        .background(
-                            if (isPassed) AppColors.success.copy(alpha = 0.4f)
-                            else AppColors.textSecondary.copy(alpha = 0.15f)
-                        )
-                )
             }
         }
 
@@ -238,7 +242,7 @@ private fun MilestoneCard(
                 text = milestone.title(language),
                 style = AppTypography.body.copy(fontWeight = FontWeight.Bold, fontSize = 15.sp),
                 color = AppColors.textPrimary,
-                modifier = if (!isAccessible) Modifier.blur(6.dp) else Modifier
+                modifier = if (!isPassed) Modifier.blur(6.dp) else Modifier
             )
 
             // Detail text (blurred if locked)

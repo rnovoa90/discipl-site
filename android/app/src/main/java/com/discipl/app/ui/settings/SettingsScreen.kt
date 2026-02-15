@@ -2,8 +2,11 @@ package com.discipl.app.ui.settings
 
 import android.content.Intent
 import android.net.Uri
+import android.widget.Toast
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -58,7 +61,7 @@ import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
 
-@OptIn(ExperimentalMaterial3Api::class)
+@OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
 @Composable
 fun SettingsScreen(
     modifier: Modifier = Modifier,
@@ -189,11 +192,27 @@ fun SettingsScreen(
 
             // Version
             Text(
-                text = "v1.0.0",
+                text = if (state.isPremium) "v1.0.0 (PRO)" else "v1.0.0",
                 style = AppTypography.caption,
                 color = AppColors.textSecondary.copy(alpha = 0.5f),
                 textAlign = TextAlign.Center,
-                modifier = Modifier.fillMaxWidth()
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .then(
+                        if (com.discipl.app.BuildConfig.DEBUG) {
+                            Modifier.combinedClickable(
+                                onClick = {},
+                                onLongClick = {
+                                    viewModel.toggleDebugPremium()
+                                    Toast.makeText(
+                                        context,
+                                        if (!state.isPremium) "Premium enabled" else "Premium disabled",
+                                        Toast.LENGTH_SHORT
+                                    ).show()
+                                }
+                            )
+                        } else Modifier
+                    )
             )
 
             Spacer(Modifier.height(AppSpacing.xxl.dp))

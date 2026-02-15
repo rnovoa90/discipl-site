@@ -78,9 +78,10 @@ fun TriggerPatterns(
         }
 
         mostCommonDayOfWeek?.let { day ->
+            val localizedDay = localizeDayOfWeek(day, language)
             Spacer(Modifier.height(8.dp))
             Text(
-                text = if (language == "en") "Most common day: $day" else "Día más común: $day",
+                text = if (language == "en") "Most common day: $localizedDay" else "Día más común: $localizedDay",
                 style = AppTypography.caption,
                 color = AppColors.textSecondary
             )
@@ -94,6 +95,20 @@ private fun localizeTimeOfDayForPattern(key: String, language: String): String =
     "evening" -> if (language == "en") "in the evening" else "en la noche"
     "late_night" -> if (language == "en") "late at night" else "en la madrugada"
     else -> key
+}
+
+private fun localizeDayOfWeek(day: String, language: String): String {
+    if (language == "en") return day
+    return when (day) {
+        "Monday" -> "Lunes"
+        "Tuesday" -> "Martes"
+        "Wednesday" -> "Miércoles"
+        "Thursday" -> "Jueves"
+        "Friday" -> "Viernes"
+        "Saturday" -> "Sábado"
+        "Sunday" -> "Domingo"
+        else -> day
+    }
 }
 
 private fun localizeTriggerForPattern(key: String, language: String): String = when (key) {

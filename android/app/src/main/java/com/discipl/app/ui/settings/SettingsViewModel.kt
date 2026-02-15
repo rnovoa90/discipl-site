@@ -111,6 +111,10 @@ class SettingsViewModel @Inject constructor(
         updateProfileField { it.copy(dailyInsightEnabled = enabled) }
     }
 
+    fun toggleDebugPremium() {
+        updateProfileField { it.copy(isPremium = !it.isPremium) }
+    }
+
     private fun updateProfileField(transform: (UserProfile) -> UserProfile) {
         viewModelScope.launch {
             val profile = _state.value.profile ?: return@launch

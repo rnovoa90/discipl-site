@@ -290,7 +290,7 @@ fun PaywallScreen(
                     PlanCard(
                         title = if (state.language == "en") "Monthly" else "Mensual",
                         price = state.monthlyPrice ?: "---",
-                        savings = null,
+                        savings = if (state.language == "en") "50% off vs adult sites" else "50% menos vs sitios adultos",
                         isSelected = state.selectedPlan == PlanType.MONTHLY,
                         onClick = { viewModel.selectPlan(PlanType.MONTHLY) }
                     )
