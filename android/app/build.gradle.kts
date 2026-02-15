@@ -118,6 +118,9 @@ dependencies {
     // Superwall
     implementation("com.superwall.sdk:superwall-android:2.1.0")
 
+    // Google Play In-App Review
+    implementation("com.google.android.play:review-ktx:2.0.2")
+
     // DataStore (for widget data sharing)
     implementation("androidx.datastore:datastore-preferences:1.1.2")
 

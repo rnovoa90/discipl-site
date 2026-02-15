@@ -64,6 +64,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import android.app.Activity
+import com.google.android.play.core.review.ReviewManagerFactory
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.discipl.app.ui.components.AnimatedBackground
 import com.discipl.app.ui.theme.AppColors
@@ -87,11 +89,25 @@ fun HomeScreen(
     viewModel: HomeViewModel = hiltViewModel()
 ) {
     val state by viewModel.state.collectAsState()
+    val context = LocalContext.current
     var showRelapseFlow by remember { mutableStateOf(false) }
     var showJournalFlow by remember { mutableStateOf(false) }
     var showPaywall by remember { mutableStateOf(false) }
 
     LaunchedEffect(Unit) { viewModel.loadData() }
+
+    // Trigger In-App Review at key milestones
+    val reviewDays = setOf(7, 30, 90)
+    val activity = context as? Activity
+    LaunchedEffect(state.currentMilestone) {
+        val milestone = state.currentMilestone ?: return@LaunchedEffect
+        if (milestone.day in reviewDays && activity != null) {
+            val reviewManager = ReviewManagerFactory.create(context)
+            reviewManager.requestReviewFlow().addOnSuccessListener { reviewInfo ->
+                reviewManager.launchReviewFlow(activity, reviewInfo)
+            }
+        }
+    }
 
     Box(modifier = modifier.fillMaxSize()) {
         AnimatedBackground()
