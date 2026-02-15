@@ -1,0 +1,238 @@
+{
+    "insights": [
+        {
+            "minDay": 0,
+            "maxDay": 3,
+            "textEs": "Tu cerebro estaba acostumbrado a picos artificiales de dopamina. La irritabilidad que sientes es normal: es la abstinencia. Ya está pasando.",
+            "textEn": "Your brain was used to artificial dopamine spikes. The irritability you feel is normal: it's withdrawal. It's already passing."
+        },
+        {
+            "minDay": 0,
+            "maxDay": 3,
+            "textEs": "En este momento tu sistema de recompensa se está recalibrando. Puede que te cueste concentrarte, pero cada hora sin recaer es progreso real.",
+            "textEn": "Right now your reward system is recalibrating. You might struggle to focus, but every hour without relapse is real progress."
+        },
+        {
+            "minDay": 0,
+            "maxDay": 3,
+            "textEs": "Los primeros días son los más duros porque tu cerebro busca desesperadamente lo que le quitaste. Aguanta: la intensidad baja rápido.",
+            "textEn": "The first days are the hardest because your brain is desperately seeking what you took away. Hold on: the intensity drops fast."
+        },
+        {
+            "minDay": 0,
+            "maxDay": 3,
+            "textEs": "Tu cuerpo puede sentirse inquieto o ansioso. Es la señal de que el cambio ya empezó. El malestar es temporal, la libertad es permanente.",
+            "textEn": "Your body may feel restless or anxious. That's the signal that change has already begun. The discomfort is temporary, the freedom is permanent."
+        },
+        {
+            "minDay": 4,
+            "maxDay": 7,
+            "textEs": "Las ganas pueden estar en su punto máximo ahora. Es normal: tu cerebro está peleando por volver a lo viejo. Pero cada vez que resistes, los circuitos se debilitan.",
+            "textEn": "Cravings may be peaking right now. That's normal: your brain is fighting to return to the old ways. But every time you resist, those circuits weaken."
+        },
+        {
+            "minDay": 4,
+            "maxDay": 7,
+            "textEs": "Tus hormonas de estrés como el cortisol están empezando a normalizarse. Muchos notan que duermen mejor en esta etapa.",
+            "textEn": "Your stress hormones like cortisol are starting to normalize. Many notice they sleep better at this stage."
+        },
+        {
+            "minDay": 4,
+            "maxDay": 7,
+            "textEs": "Tu cerebro está produciendo menos dopamina artificial, pero eso significa que pronto vas a disfrutar más las cosas simples de la vida.",
+            "textEn": "Your brain is producing less artificial dopamine, but that means you'll soon enjoy the simple things in life more."
+        },
+        {
+            "minDay": 4,
+            "maxDay": 7,
+            "textEs": "Una semana parece poco, pero neurológicamente ya hay cambios medibles. Tu corteza prefrontal empieza a recuperar terreno sobre los impulsos.",
+            "textEn": "A week seems short, but neurologically there are already measurable changes. Your prefrontal cortex is starting to regain ground over impulses."
+        },
+        {
+            "minDay": 8,
+            "maxDay": 14,
+            "textEs": "Los caminos neuronales del viejo hábito se están debilitando por falta de uso. Cada día que pasa, el piloto automático pierde fuerza.",
+            "textEn": "The neural pathways of the old habit are weakening from lack of use. Each passing day, the autopilot loses strength."
+        },
+        {
+            "minDay": 8,
+            "maxDay": 14,
+            "textEs": "Esta es la fase donde empiezas a formar nuevos hábitos. Tu cerebro busca reemplazos: dale actividad física, lectura o cualquier cosa que te desafíe.",
+            "textEn": "This is the phase where you start forming new habits. Your brain seeks replacements: give it physical activity, reading, or anything that challenges you."
+        },
+        {
+            "minDay": 8,
+            "maxDay": 14,
+            "textEs": "Tu confianza está creciendo y es real, no es placebo. El autocontrol genera evidencia de que puedes confiar en ti mismo.",
+            "textEn": "Your confidence is growing and it's real, not placebo. Self-control generates evidence that you can trust yourself."
+        },
+        {
+            "minDay": 8,
+            "maxDay": 14,
+            "textEs": "Dos semanas es cuando muchos sienten el primer gran cambio: más energía, mejor humor, más presencia en las conversaciones.",
+            "textEn": "Two weeks is when many feel the first major shift: more energy, better mood, more presence in conversations."
+        },
+        {
+            "minDay": 15,
+            "maxDay": 21,
+            "textEs": "Tu corteza prefrontal, la parte del cerebro que controla decisiones, se está fortaleciendo. Tomar buenas decisiones se vuelve cada vez más natural.",
+            "textEn": "Your prefrontal cortex, the part of the brain that controls decisions, is strengthening. Making good decisions becomes increasingly natural."
+        },
+        {
+            "minDay": 15,
+            "maxDay": 21,
+            "textEs": "Tu regulación emocional está mejorando. Las emociones fuertes ya no te empujan tan fácilmente hacia conductas impulsivas.",
+            "textEn": "Your emotional regulation is improving. Strong emotions no longer push you as easily toward impulsive behaviors."
+        },
+        {
+            "minDay": 15,
+            "maxDay": 21,
+            "textEs": "Tres semanas es el punto donde los psicólogos dicen que un hábito viejo empieza a perder su automatismo. Estás debilitando la respuesta automática.",
+            "textEn": "Three weeks is the point where psychologists say an old habit starts losing its automaticity. You're weakening the automatic response."
+        },
+        {
+            "minDay": 15,
+            "maxDay": 21,
+            "textEs": "Tu fuerza de voluntad está creciendo como un músculo. Cada tentación que superas la hace más fuerte para la próxima.",
+            "textEn": "Your willpower is growing like a muscle. Every temptation you overcome makes it stronger for the next one."
+        },
+        {
+            "minDay": 22,
+            "maxDay": 30,
+            "textEs": "Tu cerebro está estableciendo una nueva línea base de dopamina. Las cosas normales empiezan a sentirse más satisfactorias y placenteras.",
+            "textEn": "Your brain is establishing a new dopamine baseline. Normal things are starting to feel more satisfying and pleasurable."
+        },
+        {
+            "minDay": 22,
+            "maxDay": 30,
+            "textEs": "La niebla mental está despejando significativamente. Tu capacidad de concentración y pensamiento claro está volviendo a niveles naturales.",
+            "textEn": "Brain fog is clearing significantly. Your ability to focus and think clearly is returning to natural levels."
+        },
+        {
+            "minDay": 22,
+            "maxDay": 30,
+            "textEs": "Tu autoimagen está cambiando. Ya no eres alguien que \"intenta dejar\". Eres alguien que eligió ser disciplinado.",
+            "textEn": "Your self-image is shifting. You're no longer someone who's \"trying to quit.\" You're someone who chose to be disciplined."
+        },
+        {
+            "minDay": 22,
+            "maxDay": 30,
+            "textEs": "Un mes completo. Los estudios muestran que 30 días es suficiente para que el cerebro empiece a preferir los nuevos patrones sobre los viejos.",
+            "textEn": "A full month. Studies show that 30 days is enough for the brain to start preferring new patterns over old ones."
+        },
+        {
+            "minDay": 31,
+            "maxDay": 60,
+            "textEs": "Tus receptores de dopamina se están normalizando. Esto significa que tu motivación natural, sin estímulos artificiales, es cada vez más fuerte.",
+            "textEn": "Your dopamine receptors are normalizing. This means your natural motivation, without artificial stimulation, is getting stronger."
+        },
+        {
+            "minDay": 31,
+            "maxDay": 60,
+            "textEs": "Tu confianza social está creciendo de forma notable. Mirar a la gente a los ojos, hablar con claridad, sentirte presente: todo mejora.",
+            "textEn": "Your social confidence is growing noticeably. Eye contact, speaking clearly, feeling present: it all improves."
+        },
+        {
+            "minDay": 31,
+            "maxDay": 60,
+            "textEs": "Tu enfoque y productividad están en otro nivel. Sin la distracción constante, tu mente tiene espacio para lo que realmente importa.",
+            "textEn": "Your focus and productivity are on another level. Without the constant distraction, your mind has space for what truly matters."
+        },
+        {
+            "minDay": 31,
+            "maxDay": 60,
+            "textEs": "Dos meses de disciplina ya impactan tu salud mental de forma medible. Menos ansiedad, más estabilidad emocional, mayor resiliencia.",
+            "textEn": "Two months of discipline already impact your mental health in measurable ways. Less anxiety, more emotional stability, greater resilience."
+        },
+        {
+            "minDay": 61,
+            "maxDay": 90,
+            "textEs": "Estás en la fase de reinicio completo. Tu cerebro está creando nuevas conexiones que priorizan el autocontrol sobre la gratificación instantánea.",
+            "textEn": "You're in the full reboot phase. Your brain is creating new connections that prioritize self-control over instant gratification."
+        },
+        {
+            "minDay": 61,
+            "maxDay": 90,
+            "textEs": "Tu identidad está cambiando a nivel profundo. Ya no luchas contra una adicción: estás construyendo una versión de ti que no la necesita.",
+            "textEn": "Your identity is changing at a deep level. You're no longer fighting an addiction: you're building a version of yourself that doesn't need it."
+        },
+        {
+            "minDay": 61,
+            "maxDay": 90,
+            "textEs": "Las respuestas automáticas ante los triggers se están debilitando. Lo que antes era un impulso incontrolable ahora es un pensamiento que puedes dejar pasar.",
+            "textEn": "Automatic responses to triggers are weakening. What used to be an uncontrollable urge is now a thought you can let pass."
+        },
+        {
+            "minDay": 61,
+            "maxDay": 90,
+            "textEs": "90 días es el punto de referencia que muchos investigadores usan para un reinicio neurológico significativo. Estás llegando.",
+            "textEn": "90 days is the benchmark many researchers use for a significant neurological reset. You're getting there."
+        },
+        {
+            "minDay": 91,
+            "maxDay": 180,
+            "textEs": "Los viejos hábitos empiezan a sentirse extraños y ajenos. Tu cerebro ya tiene nuevos valores predeterminados, y son saludables.",
+            "textEn": "Old habits are starting to feel strange and foreign. Your brain now has new defaults, and they're healthy."
+        },
+        {
+            "minDay": 91,
+            "maxDay": 180,
+            "textEs": "Tu autocontrol ya no requiere tanto esfuerzo consciente. La disciplina se está convirtiendo en algo automático, parte de quien eres.",
+            "textEn": "Your self-control no longer requires as much conscious effort. Discipline is becoming automatic, part of who you are."
+        },
+        {
+            "minDay": 91,
+            "maxDay": 180,
+            "textEs": "Tus relaciones están mejorando. La presencia genuina, la confianza y la estabilidad emocional abren puertas que antes estaban cerradas.",
+            "textEn": "Your relationships are improving. Genuine presence, confidence, and emotional stability open doors that were previously closed."
+        },
+        {
+            "minDay": 91,
+            "maxDay": 180,
+            "textEs": "Más de tres meses de disciplina. Ya demostraste que puedes hacer lo que la mayoría no puede. Eso cambia todo lo que crees posible.",
+            "textEn": "More than three months of discipline. You've already proven you can do what most cannot. That changes everything you believe is possible."
+        },
+        {
+            "minDay": 181,
+            "maxDay": 365,
+            "textEs": "Tu cerebro completó un recableado profundo. Los circuitos del viejo hábito están prácticamente inactivos. La disciplina es tu nuevo estado natural.",
+            "textEn": "Your brain has completed a deep rewiring. The old habit circuits are practically inactive. Discipline is your new natural state."
+        },
+        {
+            "minDay": 181,
+            "maxDay": 365,
+            "textEs": "La disciplina ya no es algo que haces, es algo que eres. Se convirtió en parte de tu identidad, no solo una decisión diaria.",
+            "textEn": "Discipline is no longer something you do, it's something you are. It became part of your identity, not just a daily decision."
+        },
+        {
+            "minDay": 181,
+            "maxDay": 365,
+            "textEs": "Tu resiliencia ante el estrés y la tentación es radicalmente diferente. Tienes herramientas internas que antes no existían.",
+            "textEn": "Your resilience against stress and temptation is radically different. You have internal tools that didn't exist before."
+        },
+        {
+            "minDay": 181,
+            "maxDay": 365,
+            "textEs": "Casi un año. Piensa en quién eras cuando empezaste y quién eres ahora. Esa distancia es la prueba de lo que la disciplina puede hacer.",
+            "textEn": "Almost a year. Think about who you were when you started and who you are now. That distance is proof of what discipline can do."
+        },
+        {
+            "minDay": 366,
+            "maxDay": 99999,
+            "textEs": "Un año o más de libertad. El cambio ya es permanente. Ahora puedes usar tu experiencia para ayudar a otros que están empezando.",
+            "textEn": "A year or more of freedom. The change is now permanent. You can use your experience to help others who are just starting."
+        },
+        {
+            "minDay": 366,
+            "maxDay": 99999,
+            "textEs": "Lo que lograste no es común. La mayoría abandona en los primeros días. Tú construiste algo que va a durar toda la vida.",
+            "textEn": "What you achieved isn't common. Most give up in the first days. You built something that will last a lifetime."
+        },
+        {
+            "minDay": 366,
+            "maxDay": 99999,
+            "textEs": "Tu disciplina ya no se trata solo de lo que dejaste. Se trata de todo lo que ganaste: claridad, confianza, libertad, propósito.",
+            "textEn": "Your discipline is no longer just about what you gave up. It's about everything you gained: clarity, confidence, freedom, purpose."
+        }
+    ]
+}

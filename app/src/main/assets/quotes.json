@@ -1,0 +1,304 @@
+{
+    "quotes": [
+        {
+            "id": 1,
+            "textEs": "La disciplina es el puente entre lo que eres y lo que quieres ser.",
+            "textEn": "Discipline is the bridge between who you are and who you want to be.",
+            "author": null
+        },
+        {
+            "id": 2,
+            "textEs": "Cada día que resistes, te vuelves más fuerte.",
+            "textEn": "Every day you resist, you become stronger.",
+            "author": null
+        },
+        {
+            "id": 3,
+            "textEs": "El dolor de la disciplina es temporal. El orgullo de la victoria es permanente.",
+            "textEn": "The pain of discipline is temporary. The pride of victory is permanent.",
+            "author": null
+        },
+        {
+            "id": 4,
+            "textEs": "No se trata de ser perfecto, se trata de ser mejor que ayer.",
+            "textEn": "It's not about being perfect, it's about being better than yesterday.",
+            "author": null
+        },
+        {
+            "id": 5,
+            "textEs": "Tu futuro yo te agradecerá por las decisiones que tomas hoy.",
+            "textEn": "Your future self will thank you for the decisions you make today.",
+            "author": null
+        },
+        {
+            "id": 6,
+            "textEs": "La libertad está al otro lado de la disciplina.",
+            "textEn": "Freedom is on the other side of discipline.",
+            "author": "Jocko Willink"
+        },
+        {
+            "id": 7,
+            "textEs": "Domínate a ti mismo y podrás dominar cualquier cosa.",
+            "textEn": "Master yourself and you can master anything.",
+            "author": null
+        },
+        {
+            "id": 8,
+            "textEs": "Cada recaída es una lección, no un fracaso.",
+            "textEn": "Every relapse is a lesson, not a failure.",
+            "author": null
+        },
+        {
+            "id": 9,
+            "textEs": "La fuerza no viene de ganar. Viene de las luchas que decides no abandonar.",
+            "textEn": "Strength doesn't come from winning. It comes from the struggles you decide not to give up on.",
+            "author": null
+        },
+        {
+            "id": 10,
+            "textEs": "Hoy es un buen día para ser disciplinado.",
+            "textEn": "Today is a good day to be disciplined.",
+            "author": null
+        },
+        {
+            "id": 11,
+            "textEs": "Tu mente es tu arma más poderosa. Entrénala.",
+            "textEn": "Your mind is your most powerful weapon. Train it.",
+            "author": null
+        },
+        {
+            "id": 12,
+            "textEs": "Los hábitos que construyes hoy determinan el hombre que serás mañana.",
+            "textEn": "The habits you build today determine the man you will be tomorrow.",
+            "author": null
+        },
+        {
+            "id": 13,
+            "textEs": "No esperes motivación. Actúa con disciplina.",
+            "textEn": "Don't wait for motivation. Act with discipline.",
+            "author": null
+        },
+        {
+            "id": 14,
+            "textEs": "El autocontrol es la raíz de todas las virtudes.",
+            "textEn": "Self-control is the root of all virtues.",
+            "author": "Samuel Smiles"
+        },
+        {
+            "id": 15,
+            "textEs": "Cada día sin recaer es una victoria que nadie te puede quitar.",
+            "textEn": "Every day without relapse is a victory that no one can take from you.",
+            "author": null
+        },
+        {
+            "id": 16,
+            "textEs": "El hombre que se conquista a sí mismo es más poderoso que el que conquista una ciudad.",
+            "textEn": "The man who conquers himself is more powerful than the one who conquers a city.",
+            "author": "Proverbios 16:32"
+        },
+        {
+            "id": 17,
+            "textEs": "No cuentes los días. Haz que los días cuenten.",
+            "textEn": "Don't count the days. Make the days count.",
+            "author": "Muhammad Ali"
+        },
+        {
+            "id": 18,
+            "textEs": "El éxito es la suma de pequeños esfuerzos repetidos día tras día.",
+            "textEn": "Success is the sum of small efforts repeated day after day.",
+            "author": "Robert Collier"
+        },
+        {
+            "id": 19,
+            "textEs": "Eres más fuerte de lo que crees. Recuerda eso cuando la tentación aparezca.",
+            "textEn": "You are stronger than you think. Remember that when temptation appears.",
+            "author": null
+        },
+        {
+            "id": 20,
+            "textEs": "La tentación es fuerte, pero tú eres más fuerte.",
+            "textEn": "Temptation is strong, but you are stronger.",
+            "author": null
+        },
+        {
+            "id": 21,
+            "textEs": "Un río corta la roca no por su fuerza, sino por su persistencia.",
+            "textEn": "A river cuts through rock not by force, but by persistence.",
+            "author": null
+        },
+        {
+            "id": 22,
+            "textEs": "La mejor hora para empezar fue ayer. La segunda mejor es ahora.",
+            "textEn": "The best time to start was yesterday. The second best is now.",
+            "author": null
+        },
+        {
+            "id": 23,
+            "textEs": "No te rindas. Cada segundo que resistes es un segundo de victoria.",
+            "textEn": "Don't give up. Every second you resist is a second of victory.",
+            "author": null
+        },
+        {
+            "id": 24,
+            "textEs": "Tu carácter se define por lo que haces cuando nadie te ve.",
+            "textEn": "Your character is defined by what you do when no one is watching.",
+            "author": null
+        },
+        {
+            "id": 25,
+            "textEs": "Las cadenas del hábito son demasiado livianas para sentirlas hasta que son demasiado pesadas para romperlas.",
+            "textEn": "The chains of habit are too light to be felt until they are too heavy to be broken.",
+            "author": "Warren Buffett"
+        },
+        {
+            "id": 26,
+            "textEs": "Caer está permitido. Levantarse es obligatorio.",
+            "textEn": "Falling is allowed. Getting up is mandatory.",
+            "author": null
+        },
+        {
+            "id": 27,
+            "textEs": "Disciplina es hacer lo que hay que hacer, aunque no tengas ganas.",
+            "textEn": "Discipline is doing what needs to be done, even when you don't feel like it.",
+            "author": null
+        },
+        {
+            "id": 28,
+            "textEs": "El placer momentáneo nunca vale el orgullo permanente.",
+            "textEn": "Momentary pleasure is never worth permanent pride.",
+            "author": null
+        },
+        {
+            "id": 29,
+            "textEs": "Estás construyendo una nueva versión de ti mismo. No pares.",
+            "textEn": "You are building a new version of yourself. Don't stop.",
+            "author": null
+        },
+        {
+            "id": 30,
+            "textEs": "La disciplina pesa gramos. El arrepentimiento pesa toneladas.",
+            "textEn": "Discipline weighs grams. Regret weighs tons.",
+            "author": null
+        },
+        {
+            "id": 31,
+            "textEs": "No necesitas ser perfecto. Necesitas ser constante.",
+            "textEn": "You don't need to be perfect. You need to be consistent.",
+            "author": null
+        },
+        {
+            "id": 32,
+            "textEs": "Cada vez que dices no a la tentación, tu voluntad se hace más fuerte.",
+            "textEn": "Every time you say no to temptation, your willpower grows stronger.",
+            "author": null
+        },
+        {
+            "id": 33,
+            "textEs": "El hombre más libre es el que tiene dominio sobre sí mismo.",
+            "textEn": "The freest man is the one who has mastery over himself.",
+            "author": null
+        },
+        {
+            "id": 34,
+            "textEs": "No es sobre lo que pierdes. Es sobre lo que ganas.",
+            "textEn": "It's not about what you lose. It's about what you gain.",
+            "author": null
+        },
+        {
+            "id": 35,
+            "textEs": "Somos lo que hacemos repetidamente. La excelencia no es un acto, sino un hábito.",
+            "textEn": "We are what we repeatedly do. Excellence is not an act, but a habit.",
+            "author": "Aristóteles"
+        },
+        {
+            "id": 36,
+            "textEs": "Tu peor enemigo no puede dañarte tanto como tus propios pensamientos sin control.",
+            "textEn": "Your worst enemy cannot harm you as much as your own uncontrolled thoughts.",
+            "author": "Buda"
+        },
+        {
+            "id": 37,
+            "textEs": "El verdadero guerrero no es el que nunca cae, sino el que siempre se levanta.",
+            "textEn": "The true warrior is not the one who never falls, but the one who always gets up.",
+            "author": null
+        },
+        {
+            "id": 38,
+            "textEs": "Tu cuerpo escucha todo lo que tu mente dice. Elige bien tus pensamientos.",
+            "textEn": "Your body hears everything your mind says. Choose your thoughts wisely.",
+            "author": null
+        },
+        {
+            "id": 39,
+            "textEs": "Dentro de un año vas a desear haber empezado hoy.",
+            "textEn": "A year from now you will wish you had started today.",
+            "author": "Karen Lamb"
+        },
+        {
+            "id": 40,
+            "textEs": "La paciencia no es esperar pasivamente. Es avanzar con disciplina.",
+            "textEn": "Patience is not passive waiting. It is moving forward with discipline.",
+            "author": null
+        },
+        {
+            "id": 41,
+            "textEs": "Haz lo difícil ahora para que tu vida sea más fácil después.",
+            "textEn": "Do the hard thing now so your life is easier later.",
+            "author": null
+        },
+        {
+            "id": 42,
+            "textEs": "Tu racha no es solo un número. Es prueba de que puedes cambiar.",
+            "textEn": "Your streak is not just a number. It's proof that you can change.",
+            "author": null
+        },
+        {
+            "id": 43,
+            "textEs": "La victoria más grande es la que se gana contra uno mismo.",
+            "textEn": "The greatest victory is the one won against yourself.",
+            "author": "Platón"
+        },
+        {
+            "id": 44,
+            "textEs": "No dejes que un momento de debilidad borre semanas de fortaleza.",
+            "textEn": "Don't let a moment of weakness erase weeks of strength.",
+            "author": null
+        },
+        {
+            "id": 45,
+            "textEs": "El progreso, no la perfección, es lo que importa.",
+            "textEn": "Progress, not perfection, is what matters.",
+            "author": null
+        },
+        {
+            "id": 46,
+            "textEs": "Cuando sientes que quieres rendirte, recuerda por qué empezaste.",
+            "textEn": "When you feel like giving up, remember why you started.",
+            "author": null
+        },
+        {
+            "id": 47,
+            "textEs": "La mente que se abre a una nueva disciplina jamás vuelve a ser la misma.",
+            "textEn": "The mind that opens to new discipline never returns to its former state.",
+            "author": null
+        },
+        {
+            "id": 48,
+            "textEs": "No importa lo lento que vayas, siempre y cuando no te detengas.",
+            "textEn": "It does not matter how slowly you go, as long as you do not stop.",
+            "author": "Confucio"
+        },
+        {
+            "id": 49,
+            "textEs": "Cada mañana tienes dos opciones: seguir durmiendo con tus sueños, o despertar y perseguirlos.",
+            "textEn": "Every morning you have two choices: keep sleeping with your dreams, or wake up and chase them.",
+            "author": null
+        },
+        {
+            "id": 50,
+            "textEs": "Tú elegiste este camino. Y cada día que sigues demuestra que fue la decisión correcta.",
+            "textEn": "You chose this path. And every day you continue proves it was the right decision.",
+            "author": null
+        }
+    ]
+}

@@ -1,0 +1,754 @@
+{
+    "tasks": [
+        {
+            "day": 0, "variant": 0,
+            "textEs": "Escribe en un papel por qué empezaste este viaje. Guárdalo donde lo puedas ver cada día.",
+            "textEn": "Write down why you started this journey. Keep it somewhere you can see every day."
+        },
+        {
+            "day": 0, "variant": 1,
+            "textEs": "Elimina el historial de tu navegador y activa el modo de navegación segura. Un entorno limpio facilita la disciplina.",
+            "textEn": "Clear your browser history and enable safe browsing mode. A clean environment makes discipline easier."
+        },
+        {
+            "day": 0, "variant": 2,
+            "textEs": "Pon una alarma para dentro de 1 hora. Cuando suene, anota cómo te sientes. Empieza a observarte.",
+            "textEn": "Set an alarm for 1 hour from now. When it rings, write down how you feel. Start observing yourself."
+        },
+        {
+            "day": 0, "variant": 3,
+            "textEs": "Haz 10 sentadillas ahora mismo. El movimiento físico interrumpe los patrones mentales.",
+            "textEn": "Do 10 squats right now. Physical movement interrupts mental patterns."
+        },
+        {
+            "day": 0, "variant": 4,
+            "textEs": "Identifica 3 situaciones donde sueles caer y escríbelas. Conocer al enemigo es el primer paso.",
+            "textEn": "Identify 3 situations where you usually fall and write them down. Knowing the enemy is the first step."
+        },
+        {
+            "day": 1, "variant": 0,
+            "textEs": "Haz 20 flexiones cuando sientas un impulso. Redirige la energía a tu cuerpo.",
+            "textEn": "Do 20 pushups when you feel an urge. Redirect the energy to your body."
+        },
+        {
+            "day": 1, "variant": 1,
+            "textEs": "Toma un vaso de agua fría cada vez que sientas tentación. El cambio de temperatura rompe el impulso.",
+            "textEn": "Drink a glass of cold water every time you feel tempted. The temperature change breaks the urge."
+        },
+        {
+            "day": 1, "variant": 2,
+            "textEs": "Escribe una lista de 5 cosas que quieres lograr este mes. Mantén tu mente enfocada en el futuro.",
+            "textEn": "Write a list of 5 things you want to achieve this month. Keep your mind focused on the future."
+        },
+        {
+            "day": 1, "variant": 3,
+            "textEs": "Sal de tu casa por 10 minutos. Cambia de ambiente cuando el impulso aparezca.",
+            "textEn": "Leave your house for 10 minutes. Change your environment when the urge appears."
+        },
+        {
+            "day": 1, "variant": 4,
+            "textEs": "Pon tu teléfono en otra habitación durante 1 hora. Practica estar sin la pantalla.",
+            "textEn": "Put your phone in another room for 1 hour. Practice being without the screen."
+        },
+        {
+            "day": 2, "variant": 0,
+            "textEs": "Toma una ducha fría de 30 segundos al final de tu ducha normal. Fortalece tu tolerancia al malestar.",
+            "textEn": "Take a 30-second cold shower at the end of your normal shower. Build discomfort tolerance."
+        },
+        {
+            "day": 2, "variant": 1,
+            "textEs": "Respira profundo 10 veces: inhala 4 segundos, sostén 4, exhala 4. Hazlo ahora.",
+            "textEn": "Take 10 deep breaths: inhale 4 seconds, hold 4, exhale 4. Do it right now."
+        },
+        {
+            "day": 2, "variant": 2,
+            "textEs": "Busca un video motivacional corto y guárdalo. Tenlo listo para los momentos difíciles.",
+            "textEn": "Find a short motivational video and save it. Have it ready for difficult moments."
+        },
+        {
+            "day": 2, "variant": 3,
+            "textEs": "Reorganiza tu pantalla de inicio: quita apps que te distraen y pon las que te ayudan al frente.",
+            "textEn": "Reorganize your home screen: remove distracting apps and put helpful ones up front."
+        },
+        {
+            "day": 2, "variant": 4,
+            "textEs": "Escríbele a alguien que no has contactado en un tiempo. La conexión real desplaza la soledad.",
+            "textEn": "Message someone you haven't contacted in a while. Real connection displaces loneliness."
+        },
+        {
+            "day": 3, "variant": 0,
+            "textEs": "Elimina una app o deja de seguir una cuenta en redes que te genere tentación.",
+            "textEn": "Delete one app or unfollow one social media account that tempts you."
+        },
+        {
+            "day": 3, "variant": 1,
+            "textEs": "Haz una lista de 3 actividades que puedes hacer cuando llegue un impulso: caminar, llamar a alguien, ejercicio.",
+            "textEn": "Make a list of 3 activities for when an urge hits: walk, call someone, exercise."
+        },
+        {
+            "day": 3, "variant": 2,
+            "textEs": "Lee un artículo sobre cómo la pornografía afecta el cerebro. El conocimiento es poder.",
+            "textEn": "Read an article about how pornography affects the brain. Knowledge is power."
+        },
+        {
+            "day": 3, "variant": 3,
+            "textEs": "Establece un horario fijo para dormir esta semana. El cansancio debilita la voluntad.",
+            "textEn": "Set a fixed bedtime for this week. Tiredness weakens willpower."
+        },
+        {
+            "day": 3, "variant": 4,
+            "textEs": "Haz 3 minutos de plancha (plank). El dolor físico controlado entrena la resistencia mental.",
+            "textEn": "Do a 3-minute plank. Controlled physical discomfort trains mental resistance."
+        },
+        {
+            "day": 4, "variant": 0,
+            "textEs": "Escribe 3 cosas por las que estés agradecido hoy. La gratitud reduce el estrés.",
+            "textEn": "Write down 3 things you're grateful for today. Gratitude reduces stress."
+        },
+        {
+            "day": 4, "variant": 1,
+            "textEs": "Cocina tu desayuno en vez de comprarlo. Los pequeños actos de disciplina se acumulan.",
+            "textEn": "Cook your breakfast instead of buying it. Small acts of discipline add up."
+        },
+        {
+            "day": 4, "variant": 2,
+            "textEs": "Escucha una canción que te dé energía positiva. Crea tu playlist de disciplina.",
+            "textEn": "Listen to a song that gives you positive energy. Create your discipline playlist."
+        },
+        {
+            "day": 4, "variant": 3,
+            "textEs": "Observa tus pensamientos durante 2 minutos sin juzgarlos. Solo observa y déjalos pasar.",
+            "textEn": "Observe your thoughts for 2 minutes without judging them. Just watch and let them pass."
+        },
+        {
+            "day": 4, "variant": 4,
+            "textEs": "Haz tu cama apenas te levantes. La primera victoria del día marca el tono para todo lo demás.",
+            "textEn": "Make your bed as soon as you get up. The first win of the day sets the tone for everything else."
+        },
+        {
+            "day": 5, "variant": 0,
+            "textEs": "Sal a caminar 15 minutos sin teléfono. Deja que tu mente se calme.",
+            "textEn": "Go for a 15-minute walk without your phone. Let your mind settle."
+        },
+        {
+            "day": 5, "variant": 1,
+            "textEs": "Escribe en una nota cómo te sentirás en 30 días si sigues adelante. Visualiza tu mejor versión.",
+            "textEn": "Write in a note how you'll feel in 30 days if you keep going. Visualize your best self."
+        },
+        {
+            "day": 5, "variant": 2,
+            "textEs": "Haz algo que te incomode hoy: habla con un desconocido, prueba comida nueva, toma otra ruta.",
+            "textEn": "Do something uncomfortable today: talk to a stranger, try new food, take a different route."
+        },
+        {
+            "day": 5, "variant": 3,
+            "textEs": "Busca un hobby nuevo que quieras probar. La mente necesita algo positivo donde enfocarse.",
+            "textEn": "Look for a new hobby you want to try. Your mind needs something positive to focus on."
+        },
+        {
+            "day": 5, "variant": 4,
+            "textEs": "Apaga todas las notificaciones de redes sociales por las próximas 4 horas.",
+            "textEn": "Turn off all social media notifications for the next 4 hours."
+        },
+        {
+            "day": 6, "variant": 0,
+            "textEs": "Llama o escríbele a un amigo. La conexión humana real es el antídoto a la soledad.",
+            "textEn": "Call or text a friend. Real human connection is the antidote to loneliness."
+        },
+        {
+            "day": 6, "variant": 1,
+            "textEs": "Estira tu cuerpo durante 5 minutos. La tensión física alimenta la tensión mental.",
+            "textEn": "Stretch your body for 5 minutes. Physical tension feeds mental tension."
+        },
+        {
+            "day": 6, "variant": 2,
+            "textEs": "Escribe una carta corta a tu yo de hace 1 semana. Dile que lo lograste.",
+            "textEn": "Write a short letter to yourself from 1 week ago. Tell them you made it."
+        },
+        {
+            "day": 6, "variant": 3,
+            "textEs": "Revisa cuánto tiempo pasas en el teléfono hoy. La conciencia es el primer paso al cambio.",
+            "textEn": "Check how much time you spend on your phone today. Awareness is the first step to change."
+        },
+        {
+            "day": 6, "variant": 4,
+            "textEs": "Prepara tu ropa para mañana antes de dormir. Organizar el exterior ordena el interior.",
+            "textEn": "Prepare your clothes for tomorrow before bed. Organizing the outside orders the inside."
+        },
+        {
+            "day": 7, "variant": 0,
+            "textEs": "¡Una semana! Premia tu esfuerzo con algo sano que disfrutes: una comida favorita, un café especial.",
+            "textEn": "One week! Reward your effort with something healthy you enjoy: a favorite meal, a special coffee."
+        },
+        {
+            "day": 7, "variant": 1,
+            "textEs": "¡7 días! Escribe 3 diferencias que notas en ti comparado con hace una semana.",
+            "textEn": "7 days! Write 3 differences you notice in yourself compared to a week ago."
+        },
+        {
+            "day": 7, "variant": 2,
+            "textEs": "¡Una semana lograda! Comparte tu progreso con alguien de confianza. Decirlo en voz alta lo hace real.",
+            "textEn": "One week achieved! Share your progress with someone you trust. Saying it out loud makes it real."
+        },
+        {
+            "day": 7, "variant": 3,
+            "textEs": "¡7 días de disciplina! Haz algo que hayas pospuesto. Usa este momentum.",
+            "textEn": "7 days of discipline! Do something you've been putting off. Use this momentum."
+        },
+        {
+            "day": 7, "variant": 4,
+            "textEs": "¡Una semana! Descarga una app de meditación y haz tu primera sesión de 5 minutos.",
+            "textEn": "One week! Download a meditation app and do your first 5-minute session."
+        },
+        {
+            "day": 8, "variant": 0,
+            "textEs": "Pon tu teléfono a cargar fuera del cuarto antes de dormir. Elimina el acceso nocturno.",
+            "textEn": "Charge your phone outside the bedroom before sleep. Remove nighttime access."
+        },
+        {
+            "day": 8, "variant": 1,
+            "textEs": "Lee 10 páginas de cualquier libro. Tu cerebro necesita estímulos de baja dopamina.",
+            "textEn": "Read 10 pages of any book. Your brain needs low-dopamine stimulation."
+        },
+        {
+            "day": 8, "variant": 2,
+            "textEs": "Haz una lista de personas que admiras y por qué. Los modelos a seguir guían el cambio.",
+            "textEn": "Make a list of people you admire and why. Role models guide change."
+        },
+        {
+            "day": 8, "variant": 3,
+            "textEs": "Sal a correr o caminar rápido por 20 minutos. El ejercicio cardiovascular limpia la mente.",
+            "textEn": "Go for a run or brisk walk for 20 minutes. Cardio clears the mind."
+        },
+        {
+            "day": 8, "variant": 4,
+            "textEs": "Dibuja o escribe lo que sientes, aunque no sea perfecto. Expresar emociones reduce su poder.",
+            "textEn": "Draw or write what you feel, even if it's not perfect. Expressing emotions reduces their power."
+        },
+        {
+            "day": 9, "variant": 0,
+            "textEs": "Haz 5 minutos de respiración profunda: 4 segundos inhalar, 7 sostener, 8 exhalar.",
+            "textEn": "Do 5 minutes of deep breathing: 4 seconds inhale, 7 hold, 8 exhale."
+        },
+        {
+            "day": 9, "variant": 1,
+            "textEs": "Ordena tu escritorio o espacio de trabajo. El orden visual reduce la ansiedad.",
+            "textEn": "Tidy up your desk or workspace. Visual order reduces anxiety."
+        },
+        {
+            "day": 9, "variant": 2,
+            "textEs": "Escribe 3 metas para los próximos 30 días. Tener dirección mantiene la motivación.",
+            "textEn": "Write 3 goals for the next 30 days. Having direction maintains motivation."
+        },
+        {
+            "day": 9, "variant": 3,
+            "textEs": "Toma una ducha fría de 1 minuto completo. Cada vez se vuelve más fácil.",
+            "textEn": "Take a full 1-minute cold shower. It gets easier every time."
+        },
+        {
+            "day": 9, "variant": 4,
+            "textEs": "Prepara una comida saludable desde cero. Nutrir tu cuerpo nutre tu mente.",
+            "textEn": "Prepare a healthy meal from scratch. Nourishing your body nourishes your mind."
+        },
+        {
+            "day": 10, "variant": 0,
+            "textEs": "Identifica tu momento más vulnerable del día y planifica una actividad alternativa para esa hora.",
+            "textEn": "Identify your most vulnerable time of day and plan an alternative activity for that hour."
+        },
+        {
+            "day": 10, "variant": 1,
+            "textEs": "Investiga un tema que te interese durante 15 minutos. Reemplaza el scroll sin sentido con curiosidad real.",
+            "textEn": "Research a topic that interests you for 15 minutes. Replace mindless scrolling with real curiosity."
+        },
+        {
+            "day": 10, "variant": 2,
+            "textEs": "Haz 30 abdominales. Cuando tu cuerpo se fortalece, tu mente también.",
+            "textEn": "Do 30 crunches. When your body gets stronger, your mind does too."
+        },
+        {
+            "day": 10, "variant": 3,
+            "textEs": "Escucha un podcast sobre desarrollo personal durante tu próximo trayecto.",
+            "textEn": "Listen to a personal development podcast during your next commute."
+        },
+        {
+            "day": 10, "variant": 4,
+            "textEs": "Pasa 10 minutos en silencio total. Sin música, sin teléfono. Solo tú y tus pensamientos.",
+            "textEn": "Spend 10 minutes in total silence. No music, no phone. Just you and your thoughts."
+        },
+        {
+            "day": 11, "variant": 0,
+            "textEs": "Lee 10 páginas de un libro. Entrena tu cerebro a disfrutar estímulos de baja dopamina.",
+            "textEn": "Read 10 pages of a book. Train your brain to enjoy low-dopamine stimulation."
+        },
+        {
+            "day": 11, "variant": 1,
+            "textEs": "Escribe una lista de cosas que puedes hacer en vez de ver pornografía. Pega la lista donde la veas.",
+            "textEn": "Write a list of things you can do instead of watching porn. Post the list where you'll see it."
+        },
+        {
+            "day": 11, "variant": 2,
+            "textEs": "Llama a un familiar que no has contactado recientemente. Las relaciones reales sanan.",
+            "textEn": "Call a family member you haven't contacted recently. Real relationships heal."
+        },
+        {
+            "day": 11, "variant": 3,
+            "textEs": "Aprende 5 palabras nuevas en otro idioma. Dale a tu cerebro algo productivo que procesar.",
+            "textEn": "Learn 5 new words in another language. Give your brain something productive to process."
+        },
+        {
+            "day": 11, "variant": 4,
+            "textEs": "Establece un límite de tiempo para redes sociales hoy: máximo 30 minutos en total.",
+            "textEn": "Set a social media time limit today: maximum 30 minutes total."
+        },
+        {
+            "day": 12, "variant": 0,
+            "textEs": "Haz tu cama apenas te levantes. Las pequeñas victorias generan momentum.",
+            "textEn": "Make your bed as soon as you wake up. Small wins create momentum."
+        },
+        {
+            "day": 12, "variant": 1,
+            "textEs": "Haz 15 minutos de ejercicio antes del desayuno. La disciplina matutina marca todo el día.",
+            "textEn": "Do 15 minutes of exercise before breakfast. Morning discipline sets the whole day."
+        },
+        {
+            "day": 12, "variant": 2,
+            "textEs": "Escribe algo que te enorgullezca de ti mismo hoy. Reconoce tu esfuerzo.",
+            "textEn": "Write something you're proud of about yourself today. Acknowledge your effort."
+        },
+        {
+            "day": 12, "variant": 3,
+            "textEs": "Bebe 8 vasos de agua hoy. La hidratación mejora la función cerebral y el autocontrol.",
+            "textEn": "Drink 8 glasses of water today. Hydration improves brain function and self-control."
+        },
+        {
+            "day": 12, "variant": 4,
+            "textEs": "Desinstala una app de redes sociales por 24 horas. Observa qué sientes sin ella.",
+            "textEn": "Uninstall a social media app for 24 hours. Observe how you feel without it."
+        },
+        {
+            "day": 13, "variant": 0,
+            "textEs": "Escribe cómo te sientes comparado con el día 1. Nota el progreso.",
+            "textEn": "Write down how you feel compared to day 1. Notice the progress."
+        },
+        {
+            "day": 13, "variant": 1,
+            "textEs": "Haz algo creativo: dibuja, escribe, toca un instrumento, cocina algo nuevo.",
+            "textEn": "Do something creative: draw, write, play an instrument, cook something new."
+        },
+        {
+            "day": 13, "variant": 2,
+            "textEs": "Sal a caminar y presta atención a 5 detalles que normalmente no notas. Practica presencia.",
+            "textEn": "Go for a walk and pay attention to 5 details you normally don't notice. Practice presence."
+        },
+        {
+            "day": 13, "variant": 3,
+            "textEs": "Planifica tu semana: escribe tus prioridades para los próximos 7 días.",
+            "textEn": "Plan your week: write your priorities for the next 7 days."
+        },
+        {
+            "day": 13, "variant": 4,
+            "textEs": "Haz algo amable por alguien hoy sin que te lo pidan. La generosidad fortalece la autoestima.",
+            "textEn": "Do something kind for someone today without being asked. Generosity strengthens self-esteem."
+        },
+        {
+            "day": 14, "variant": 0,
+            "textEs": "¡Dos semanas! Mira a alguien a los ojos durante una conversación hoy. Nota tu confianza.",
+            "textEn": "Two weeks! Make eye contact during a conversation today. Notice your confidence."
+        },
+        {
+            "day": 14, "variant": 1,
+            "textEs": "¡14 días! Celebra escribiendo 5 cambios positivos que has notado en ti.",
+            "textEn": "14 days! Celebrate by writing 5 positive changes you've noticed in yourself."
+        },
+        {
+            "day": 14, "variant": 2,
+            "textEs": "¡Dos semanas logradas! Regálate una experiencia nueva: un lugar nuevo, una actividad diferente.",
+            "textEn": "Two weeks achieved! Treat yourself to a new experience: a new place, a different activity."
+        },
+        {
+            "day": 14, "variant": 3,
+            "textEs": "¡14 días de libertad! Escribe una carta a tu yo del día 1 contándole hasta dónde llegaste.",
+            "textEn": "14 days of freedom! Write a letter to your day-1 self telling them how far you've come."
+        },
+        {
+            "day": 14, "variant": 4,
+            "textEs": "¡Dos semanas! Invita a alguien a hacer ejercicio contigo. Comparte la energía positiva.",
+            "textEn": "Two weeks! Invite someone to exercise with you. Share the positive energy."
+        },
+        {
+            "day": 15, "variant": 0,
+            "textEs": "Haz ejercicio físico por 30 minutos. El ejercicio es el mejor regulador de dopamina natural.",
+            "textEn": "Exercise for 30 minutes. Exercise is the best natural dopamine regulator."
+        },
+        {
+            "day": 15, "variant": 1,
+            "textEs": "Define tu rutina matutina ideal y síguela mañana. Las rutinas eliminan la necesidad de decidir.",
+            "textEn": "Define your ideal morning routine and follow it tomorrow. Routines eliminate the need to decide."
+        },
+        {
+            "day": 15, "variant": 2,
+            "textEs": "Pasa 15 minutos organizando tu habitación. El espacio limpio refleja una mente clara.",
+            "textEn": "Spend 15 minutes organizing your room. Clean space reflects a clear mind."
+        },
+        {
+            "day": 15, "variant": 3,
+            "textEs": "Practica decir \"no\" a algo hoy. El autocontrol se fortalece con cada pequeña negativa.",
+            "textEn": "Practice saying \"no\" to something today. Self-control strengthens with each small refusal."
+        },
+        {
+            "day": 15, "variant": 4,
+            "textEs": "Escucha música clásica o instrumental por 20 minutos. Dale a tu cerebro un descanso del ruido.",
+            "textEn": "Listen to classical or instrumental music for 20 minutes. Give your brain a break from noise."
+        },
+        {
+            "day": 16, "variant": 0,
+            "textEs": "Cocina algo nuevo. El proceso creativo activa circuitos de recompensa sanos.",
+            "textEn": "Cook something new. The creative process activates healthy reward circuits."
+        },
+        {
+            "day": 16, "variant": 1,
+            "textEs": "Escribe una lista de 10 cosas que te hacen feliz sin tecnología. Reconecta con lo simple.",
+            "textEn": "Write a list of 10 things that make you happy without technology. Reconnect with simplicity."
+        },
+        {
+            "day": 16, "variant": 2,
+            "textEs": "Haz 50 sentadillas repartidas en el día: 10 cada hora. Mantén tu cuerpo activo.",
+            "textEn": "Do 50 squats spread throughout the day: 10 each hour. Keep your body active."
+        },
+        {
+            "day": 16, "variant": 3,
+            "textEs": "Dedica 20 minutos a un proyecto personal que hayas abandonado. Retómalo hoy.",
+            "textEn": "Spend 20 minutes on a personal project you've abandoned. Pick it back up today."
+        },
+        {
+            "day": 16, "variant": 4,
+            "textEs": "Toma agua antes de cada comida hoy. La disciplina en lo básico se extiende a todo.",
+            "textEn": "Drink water before every meal today. Discipline in basics extends to everything."
+        },
+        {
+            "day": 17, "variant": 0,
+            "textEs": "Desactiva las notificaciones de redes sociales por 24 horas.",
+            "textEn": "Turn off social media notifications for 24 hours."
+        },
+        {
+            "day": 17, "variant": 1,
+            "textEs": "Practica la regla de los 5 segundos: cuando debas hacer algo, cuenta 5-4-3-2-1 y actúa.",
+            "textEn": "Practice the 5-second rule: when you need to do something, count 5-4-3-2-1 and act."
+        },
+        {
+            "day": 17, "variant": 2,
+            "textEs": "Ve un documental sobre superación personal o ciencia del cerebro. Aliméntate con contenido que inspire.",
+            "textEn": "Watch a documentary about personal growth or brain science. Feed yourself inspiring content."
+        },
+        {
+            "day": 17, "variant": 3,
+            "textEs": "Haz una caminata de 30 minutos y presta atención a los sonidos de tu entorno.",
+            "textEn": "Take a 30-minute walk and pay attention to the sounds around you."
+        },
+        {
+            "day": 17, "variant": 4,
+            "textEs": "Escribe 3 cosas que aprendiste sobre ti mismo en estos 17 días.",
+            "textEn": "Write 3 things you've learned about yourself in these 17 days."
+        },
+        {
+            "day": 18, "variant": 0,
+            "textEs": "Escribe una carta a tu yo futuro describiendo la persona en la que te estás convirtiendo.",
+            "textEn": "Write a letter to your future self describing the person you're becoming."
+        },
+        {
+            "day": 18, "variant": 1,
+            "textEs": "Haz un acto de servicio: ayuda a un vecino, dona algo, ofrece tu tiempo.",
+            "textEn": "Do an act of service: help a neighbor, donate something, offer your time."
+        },
+        {
+            "day": 18, "variant": 2,
+            "textEs": "Prueba meditar 10 minutos. Siéntate, cierra los ojos y enfócate solo en respirar.",
+            "textEn": "Try meditating for 10 minutes. Sit down, close your eyes, and focus only on breathing."
+        },
+        {
+            "day": 18, "variant": 3,
+            "textEs": "Establece una meta de sueño: 7-8 horas mínimo. El descanso es fundamental para el autocontrol.",
+            "textEn": "Set a sleep goal: 7-8 hours minimum. Rest is essential for self-control."
+        },
+        {
+            "day": 18, "variant": 4,
+            "textEs": "Aprende una receta nueva y prepárala hoy. Crear con las manos calma la mente.",
+            "textEn": "Learn a new recipe and make it today. Creating with your hands calms the mind."
+        },
+        {
+            "day": 19, "variant": 0,
+            "textEs": "Ordena un espacio de tu casa. El orden externo refleja orden interno.",
+            "textEn": "Organize a space in your home. External order reflects internal order."
+        },
+        {
+            "day": 19, "variant": 1,
+            "textEs": "Lee sobre los beneficios de dejar la pornografía. Refuerza tu decisión con información.",
+            "textEn": "Read about the benefits of quitting porn. Reinforce your decision with information."
+        },
+        {
+            "day": 19, "variant": 2,
+            "textEs": "Haz una lista de personas tóxicas o hábitos negativos que necesitas soltar. Sé honesto.",
+            "textEn": "Make a list of toxic people or negative habits you need to let go. Be honest."
+        },
+        {
+            "day": 19, "variant": 3,
+            "textEs": "Pasa 30 minutos al aire libre sin propósito específico. Solo disfruta estar presente.",
+            "textEn": "Spend 30 minutes outdoors with no specific purpose. Just enjoy being present."
+        },
+        {
+            "day": 19, "variant": 4,
+            "textEs": "Elige un área de tu vida para mejorar (finanzas, salud, relaciones) y da un paso hoy.",
+            "textEn": "Choose an area of your life to improve (finances, health, relationships) and take one step today."
+        },
+        {
+            "day": 20, "variant": 0,
+            "textEs": "Medita 5 minutos. Siéntate en silencio y observa tus pensamientos sin juzgarlos.",
+            "textEn": "Meditate for 5 minutes. Sit quietly and observe your thoughts without judging them."
+        },
+        {
+            "day": 20, "variant": 1,
+            "textEs": "Escribe qué tipo de hombre quieres ser en 1 año. La visión guía la acción.",
+            "textEn": "Write what kind of man you want to be in 1 year. Vision guides action."
+        },
+        {
+            "day": 20, "variant": 2,
+            "textEs": "Haz ejercicio intenso hoy: correr, nadar, pesas. Gasta la energía de forma productiva.",
+            "textEn": "Do intense exercise today: run, swim, weights. Spend energy productively."
+        },
+        {
+            "day": 20, "variant": 3,
+            "textEs": "Organiza tu semana: agenda tus comidas, ejercicio y tiempo libre. La estructura es libertad.",
+            "textEn": "Organize your week: schedule meals, exercise, and free time. Structure is freedom."
+        },
+        {
+            "day": 20, "variant": 4,
+            "textEs": "Toma una foto de algo bello que veas hoy. Entrena tus ojos a buscar belleza real.",
+            "textEn": "Take a photo of something beautiful you see today. Train your eyes to seek real beauty."
+        },
+        {
+            "day": 21, "variant": 0,
+            "textEs": "¡Tres semanas! El viejo hábito se debilita. Escribe 3 cambios positivos que notaste.",
+            "textEn": "Three weeks! The old habit weakens. Write down 3 positive changes you've noticed."
+        },
+        {
+            "day": 21, "variant": 1,
+            "textEs": "¡21 días! Comparte tu racha con alguien de confianza. El apoyo social refuerza el compromiso.",
+            "textEn": "21 days! Share your streak with someone you trust. Social support reinforces commitment."
+        },
+        {
+            "day": 21, "variant": 2,
+            "textEs": "¡Tres semanas logradas! Regálate algo que represente tu progreso: un libro, una experiencia nueva.",
+            "textEn": "Three weeks achieved! Treat yourself to something representing your progress: a book, a new experience."
+        },
+        {
+            "day": 21, "variant": 3,
+            "textEs": "¡21 días! Escribe un mensaje a tu yo del futuro sobre cómo superaste las primeras 3 semanas.",
+            "textEn": "21 days! Write a message to your future self about how you overcame the first 3 weeks."
+        },
+        {
+            "day": 21, "variant": 4,
+            "textEs": "¡Tres semanas! Revisa tus disparadores originales. ¿Cuántos ya no tienen poder sobre ti?",
+            "textEn": "Three weeks! Review your original triggers. How many no longer have power over you?"
+        },
+        {
+            "day": 22, "variant": 0,
+            "textEs": "Aprende algo nuevo hoy: un dato, una habilidad, una palabra en otro idioma.",
+            "textEn": "Learn something new today: a fact, a skill, a word in another language."
+        },
+        {
+            "day": 22, "variant": 1,
+            "textEs": "Escribe tu rutina nocturna ideal y síguela esta noche. Las noches son clave para la disciplina.",
+            "textEn": "Write your ideal nighttime routine and follow it tonight. Nights are key for discipline."
+        },
+        {
+            "day": 22, "variant": 2,
+            "textEs": "Ayuda a alguien con algo hoy. Servir a otros te saca de tu propia cabeza.",
+            "textEn": "Help someone with something today. Serving others gets you out of your own head."
+        },
+        {
+            "day": 22, "variant": 3,
+            "textEs": "Haz 10 minutos de yoga o estiramientos. La flexibilidad del cuerpo acompaña la de la mente.",
+            "textEn": "Do 10 minutes of yoga or stretching. Body flexibility accompanies mental flexibility."
+        },
+        {
+            "day": 22, "variant": 4,
+            "textEs": "Escucha un audiolibro o podcast nuevo. Sigue alimentando tu mente con contenido de calidad.",
+            "textEn": "Listen to a new audiobook or podcast. Keep feeding your mind with quality content."
+        },
+        {
+            "day": 23, "variant": 0,
+            "textEs": "Haz algo amable por alguien sin esperar nada a cambio.",
+            "textEn": "Do something kind for someone without expecting anything in return."
+        },
+        {
+            "day": 23, "variant": 1,
+            "textEs": "Pasa 20 minutos sin tecnología. Lee, dibuja, camina o simplemente piensa.",
+            "textEn": "Spend 20 minutes without technology. Read, draw, walk, or just think."
+        },
+        {
+            "day": 23, "variant": 2,
+            "textEs": "Escribe una lista de 5 victorias, por pequeñas que sean, de la última semana.",
+            "textEn": "Write a list of 5 wins, however small, from the past week."
+        },
+        {
+            "day": 23, "variant": 3,
+            "textEs": "Haz una actividad al aire libre: correr, caminar, andar en bici. Reconecta con la naturaleza.",
+            "textEn": "Do an outdoor activity: run, walk, bike. Reconnect with nature."
+        },
+        {
+            "day": 23, "variant": 4,
+            "textEs": "Identifica un mal hábito pequeño (cafeína excesiva, comida chatarra) e intenta reducirlo hoy.",
+            "textEn": "Identify a small bad habit (excess caffeine, junk food) and try to reduce it today."
+        },
+        {
+            "day": 24, "variant": 0,
+            "textEs": "Establece una rutina de noche: sin pantallas 30 minutos antes de dormir.",
+            "textEn": "Establish a nighttime routine: no screens 30 minutes before bed."
+        },
+        {
+            "day": 24, "variant": 1,
+            "textEs": "Escribe un plan de acción para cuando llegue un impulso fuerte. Ten tu estrategia lista.",
+            "textEn": "Write an action plan for when a strong urge hits. Have your strategy ready."
+        },
+        {
+            "day": 24, "variant": 2,
+            "textEs": "Haz 3 series de 15 flexiones. Tu cuerpo más fuerte respalda una mente más fuerte.",
+            "textEn": "Do 3 sets of 15 pushups. A stronger body backs a stronger mind."
+        },
+        {
+            "day": 24, "variant": 3,
+            "textEs": "Llama a un amigo y haz planes para verse esta semana. La conexión real previene la recaída.",
+            "textEn": "Call a friend and make plans to meet this week. Real connection prevents relapse."
+        },
+        {
+            "day": 24, "variant": 4,
+            "textEs": "Haz algo productivo que hayas pospuesto: limpiar, estudiar, un proyecto pendiente.",
+            "textEn": "Do something productive you've been putting off: clean, study, a pending project."
+        },
+        {
+            "day": 25, "variant": 0,
+            "textEs": "Escucha un podcast o charla sobre desarrollo personal mientras caminas.",
+            "textEn": "Listen to a podcast or talk about personal development while walking."
+        },
+        {
+            "day": 25, "variant": 1,
+            "textEs": "Escribe qué cambiarías de tu vida si supieras que no puedes fallar. Sueña en grande.",
+            "textEn": "Write what you'd change about your life if you knew you couldn't fail. Dream big."
+        },
+        {
+            "day": 25, "variant": 2,
+            "textEs": "Practica la gratitud antes de dormir: nombra 3 cosas buenas del día.",
+            "textEn": "Practice gratitude before bed: name 3 good things about the day."
+        },
+        {
+            "day": 25, "variant": 3,
+            "textEs": "Haz una actividad manual: cocinar, armar algo, reparar algo roto. Usa las manos.",
+            "textEn": "Do a manual activity: cook, build something, repair something broken. Use your hands."
+        },
+        {
+            "day": 25, "variant": 4,
+            "textEs": "Elimina fotos, videos o archivos que puedan tentarte. Limpieza digital total.",
+            "textEn": "Delete photos, videos, or files that might tempt you. Total digital cleanup."
+        },
+        {
+            "day": 26, "variant": 0,
+            "textEs": "Planifica una actividad social para esta semana. No te aísles.",
+            "textEn": "Plan a social activity for this week. Don't isolate yourself."
+        },
+        {
+            "day": 26, "variant": 1,
+            "textEs": "Haz 20 minutos de ejercicio de alta intensidad. Quema la energía acumulada.",
+            "textEn": "Do 20 minutes of high-intensity exercise. Burn off accumulated energy."
+        },
+        {
+            "day": 26, "variant": 2,
+            "textEs": "Evalúa tu progreso: ¿duermes mejor? ¿Más energía? ¿Más confianza? Anótalo.",
+            "textEn": "Evaluate your progress: sleeping better? More energy? More confidence? Write it down."
+        },
+        {
+            "day": 26, "variant": 3,
+            "textEs": "Lee algo que te desafíe intelectualmente. Tu cerebro necesita crecer, no solo descansar.",
+            "textEn": "Read something that challenges you intellectually. Your brain needs to grow, not just rest."
+        },
+        {
+            "day": 26, "variant": 4,
+            "textEs": "Dedica 15 minutos a visualizar tu vida en 6 meses si sigues con esta disciplina.",
+            "textEn": "Spend 15 minutes visualizing your life in 6 months if you continue with this discipline."
+        },
+        {
+            "day": 27, "variant": 0,
+            "textEs": "Revisa tu progreso: ¿qué disparadores identificaste? ¿Cómo los manejas ahora?",
+            "textEn": "Review your progress: what triggers have you identified? How do you handle them now?"
+        },
+        {
+            "day": 27, "variant": 1,
+            "textEs": "Haz algo que te asuste un poco: hablar en público, un reto físico, una conversación difícil.",
+            "textEn": "Do something that scares you a little: public speaking, a physical challenge, a difficult conversation."
+        },
+        {
+            "day": 27, "variant": 2,
+            "textEs": "Escribe una carta de perdón a ti mismo por las recaídas pasadas. Suelta la culpa.",
+            "textEn": "Write a forgiveness letter to yourself for past relapses. Release the guilt."
+        },
+        {
+            "day": 27, "variant": 3,
+            "textEs": "Medita 15 minutos hoy. Has demostrado que puedes ser paciente contigo mismo.",
+            "textEn": "Meditate for 15 minutes today. You've proven you can be patient with yourself."
+        },
+        {
+            "day": 27, "variant": 4,
+            "textEs": "Enseña algo que sepas a alguien. Enseñar refuerza tu propia confianza y conocimiento.",
+            "textEn": "Teach something you know to someone. Teaching reinforces your own confidence and knowledge."
+        },
+        {
+            "day": 28, "variant": 0,
+            "textEs": "Escribe tu definición de disciplina. Hazla tuya.",
+            "textEn": "Write your own definition of discipline. Make it yours."
+        },
+        {
+            "day": 28, "variant": 1,
+            "textEs": "Haz una revisión completa de tu teléfono: elimina apps innecesarias, limpia fotos, organiza.",
+            "textEn": "Do a complete phone review: delete unnecessary apps, clean photos, organize."
+        },
+        {
+            "day": 28, "variant": 2,
+            "textEs": "Establece 3 metas para el próximo mes. La disciplina necesita dirección para mantenerse.",
+            "textEn": "Set 3 goals for next month. Discipline needs direction to sustain itself."
+        },
+        {
+            "day": 28, "variant": 3,
+            "textEs": "Haz algo que tu yo de hace 28 días no hubiera podido hacer. Demuestra tu crecimiento.",
+            "textEn": "Do something your 28-days-ago self couldn't have done. Prove your growth."
+        },
+        {
+            "day": 28, "variant": 4,
+            "textEs": "Agradece a alguien que te haya apoyado en este proceso, aunque no sepa los detalles.",
+            "textEn": "Thank someone who has supported you in this process, even if they don't know the details."
+        },
+        {
+            "day": 29, "variant": 0,
+            "textEs": "¡Casi un mes! Cuéntale a alguien de confianza sobre un logro reciente. Compartir refuerza el compromiso.",
+            "textEn": "Almost a month! Tell someone you trust about a recent achievement. Sharing reinforces commitment."
+        },
+        {
+            "day": 29, "variant": 1,
+            "textEs": "¡Día 29! Escribe una reflexión: ¿quién eras hace un mes y quién eres ahora?",
+            "textEn": "Day 29! Write a reflection: who were you a month ago and who are you now?"
+        },
+        {
+            "day": 29, "variant": 2,
+            "textEs": "¡Casi 30 días! Crea un plan de mantenimiento: ¿qué hábitos vas a conservar del próximo mes?",
+            "textEn": "Almost 30 days! Create a maintenance plan: what habits will you keep for next month?"
+        },
+        {
+            "day": 29, "variant": 3,
+            "textEs": "¡Un mes en la puerta! Repasa tu carta del día 0. Mira cuánto has crecido.",
+            "textEn": "A month at the door! Reread your day-0 letter. See how much you've grown."
+        },
+        {
+            "day": 29, "variant": 4,
+            "textEs": "¡Día 29! Haz algo especial por ti: una buena comida, una actividad favorita. Mereces celebrar.",
+            "textEn": "Day 29! Do something special for yourself: a good meal, a favorite activity. You deserve to celebrate."
+        }
+    ]
+}

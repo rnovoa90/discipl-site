@@ -1,0 +1,148 @@
+{
+    "milestones": [
+        {
+            "day": 1,
+            "titleEs": "Tu cerebro comienza a recalibrarse",
+            "titleEn": "Your brain begins to recalibrate",
+            "detailEs": "Las primeras 24 horas son las más difíciles. Tu cerebro está empezando a ajustarse a la ausencia del estímulo artificial. Cada hora que pasas resistiendo, tus receptores de dopamina comienzan a sanar.",
+            "detailEn": "The first 24 hours are the hardest. Your brain is starting to adjust to the absence of artificial stimulation. Every hour you resist, your dopamine receptors begin to heal.",
+            "whyEs": "Tu cerebro venía recibiendo picos artificiales de dopamina — hasta 200% por encima de lo normal. Esto causó que tus receptores se desensibilicen (tolerancia). Sin el estímulo, tu sistema de recompensa empieza a recalibrarse a niveles naturales. Es un proceso incómodo pero necesario.",
+            "whyEn": "Your brain has been receiving artificial dopamine spikes — up to 200% above normal. This caused your receptors to desensitize (tolerance). Without the stimulus, your reward system begins recalibrating to natural levels. It's uncomfortable but necessary.",
+            "signsEs": ["Inquietud o irritabilidad inusual", "Impulsos más fuertes por la noche", "Dificultad para concentrarte en tareas largas", "Mayor sensibilidad emocional"],
+            "signsEn": ["Unusual restlessness or irritability", "Stronger urges in the evening", "Difficulty focusing on long tasks", "Heightened emotional sensitivity"],
+            "isFree": true
+        },
+        {
+            "day": 3,
+            "titleEs": "Reducción de ansiedad",
+            "titleEn": "Anxiety reduction",
+            "detailEs": "Tu sistema nervioso empieza a estabilizarse. La ansiedad que sentías comienza a disminuir. Tu mente está más tranquila y puedes concentrarte mejor en tus tareas diarias.",
+            "detailEn": "Your nervous system starts to stabilize. The anxiety you felt begins to diminish. Your mind is calmer and you can focus better on your daily tasks.",
+            "whyEs": "El ciclo constante de excitación-culpa-vergüenza mantenía tu sistema nervioso en modo alerta (respuesta simpática). Al romper ese ciclo, tu sistema parasimpático se activa — el que regula la calma y la recuperación. Los niveles de cortisol (hormona del estrés) comienzan a normalizarse.",
+            "whyEn": "The constant cycle of arousal-guilt-shame kept your nervous system in alert mode (sympathetic response). Breaking that cycle activates your parasympathetic system — the one that regulates calm and recovery. Cortisol (stress hormone) levels begin to normalize.",
+            "signsEs": ["Ánimo más estable durante el día", "Menos pensamientos intrusivos", "Te duermes más rápido", "Menos tensión física en hombros y mandíbula"],
+            "signsEn": ["More stable mood throughout the day", "Fewer intrusive thoughts", "Falling asleep faster", "Less physical tension in shoulders and jaw"],
+            "isFree": true
+        },
+        {
+            "day": 7,
+            "titleEs": "Mayor claridad mental",
+            "titleEn": "Greater mental clarity",
+            "detailEs": "Una semana de disciplina. Tu mente está más clara, tu enfoque más agudo. La niebla mental que causaba el consumo excesivo empieza a despejarse. Notas que puedes pensar con más claridad.",
+            "detailEn": "One week of discipline. Your mind is clearer, your focus sharper. The brain fog caused by excessive consumption begins to clear. You notice you can think more clearly.",
+            "whyEs": "La corteza prefrontal — el centro de control ejecutivo de tu cerebro — empieza a recuperar autoridad. Antes estaba siendo constantemente anulada por impulsos límbicos. Con una semana sin el estímulo, la toma de decisiones y la planificación mejoran notablemente.",
+            "whyEn": "The prefrontal cortex — your brain's executive control center — starts regaining authority. It was being constantly overridden by limbic impulses. After a week without the stimulus, decision-making and planning improve noticeably.",
+            "signsEs": ["Mejor enfoque durante el trabajo o estudio", "Pensamiento más claro en conversaciones", "Menos 'niebla mental' por las mañanas", "Mayor productividad sin esforzarte más"],
+            "signsEn": ["Better focus during work or study", "Clearer thinking in conversations", "Less 'brain fog' in the mornings", "Greater productivity without trying harder"],
+            "isFree": false
+        },
+        {
+            "day": 14,
+            "titleEs": "Mejora en la confianza social",
+            "titleEn": "Improved social confidence",
+            "detailEs": "Dos semanas de control. Tu confianza en situaciones sociales mejora. Te sientes más cómodo mirando a la gente a los ojos. La vergüenza que cargabas empieza a desvanecerse.",
+            "detailEn": "Two weeks of control. Your confidence in social situations improves. You feel more comfortable making eye contact. The shame you carried begins to fade.",
+            "whyEs": "La vergüenza es una de las emociones más aislantes. Al romper el ciclo conducta-vergüenza, tu culpa subconsciente disminuye. Además, los niveles de testosterona tienden a estabilizarse en este punto, lo cual afecta directamente tu presencia social y tu confianza.",
+            "whyEn": "Shame is one of the most isolating emotions. Breaking the behavior-shame cycle reduces subconscious guilt. Additionally, testosterone levels tend to stabilize at this point, directly affecting your social presence and confidence.",
+            "signsEs": ["Contacto visual más natural y sostenido", "Menos evasión social o ganas de aislarte", "Te sientes más 'presente' en conversaciones", "Reducción de ansiedad cerca de personas atractivas"],
+            "signsEn": ["More natural and sustained eye contact", "Less social avoidance or desire to isolate", "Feeling more 'present' in conversations", "Reduced anxiety around attractive people"],
+            "isFree": false
+        },
+        {
+            "day": 21,
+            "titleEs": "Hábito viejo debilitado",
+            "titleEn": "Old habit weakened",
+            "detailEs": "Tres semanas. Los estudios muestran que este es el punto donde los viejos hábitos empiezan a perder su poder. Las conexiones neuronales del hábito destructivo se debilitan cada día más.",
+            "detailEn": "Three weeks. Studies show this is the point where old habits start to lose their power. The neural connections of the destructive habit weaken more each day.",
+            "whyEs": "La neuroplasticidad funciona en ambas direcciones. Las vías neuronales del viejo hábito se debilitan por desuso (poda sináptica). Investigaciones sugieren que ~21 días es cuando los patrones automáticos de comportamiento empiezan a perder su agarre sobre tus decisiones.",
+            "whyEn": "Neuroplasticity works both ways. Neural pathways of the old habit weaken through disuse (synaptic pruning). Research suggests ~21 days is when automatic behavioral patterns start losing their grip on your decisions.",
+            "signsEs": ["Los impulsos se vuelven menos frecuentes", "Te sorprendes en situaciones gatillo antes de actuar", "Mecanismos de afrontamiento sanos se sienten más naturales", "Menos tiempo perdido en fantasías"],
+            "signsEn": ["Urges become less frequent", "You catch yourself in trigger situations before acting", "Healthy coping mechanisms feel more natural", "Less time lost to fantasizing"],
+            "isFree": false
+        },
+        {
+            "day": 30,
+            "titleEs": "Nuevas conexiones neuronales formadas",
+            "titleEn": "New neural connections formed",
+            "detailEs": "Un mes de disciplina. Tu cerebro ha formado nuevas conexiones neuronales. Tu energía es más estable, tu motivación más consistente. Estás construyendo una nueva versión de ti mismo.",
+            "detailEn": "One month of discipline. Your brain has formed new neural connections. Your energy is more stable, your motivation more consistent. You're building a new version of yourself.",
+            "whyEs": "Tu cerebro lleva un mes construyendo nuevas rutas neuronales por defecto. El circuito de recompensa está aprendiendo a responder a estímulos naturales de nuevo. La sensibilidad a la dopamina aumenta, lo que significa que los placeres cotidianos se sienten más gratificantes que antes.",
+            "whyEn": "Your brain has spent a month building new default neural pathways. The reward circuit is learning to respond to natural stimuli again. Dopamine sensitivity increases, meaning everyday pleasures feel more rewarding than before.",
+            "signsEs": ["Mayor disfrute de comida, música y ejercicio", "Motivación más estable para tus metas", "Niveles de energía más parejos durante el día", "Las atracciones naturales se sienten más sanas"],
+            "signsEn": ["Greater enjoyment of food, music, and exercise", "More stable motivation for your goals", "More even energy levels throughout the day", "Natural attractions feel healthier"],
+            "isFree": false
+        },
+        {
+            "day": 60,
+            "titleEs": "Autocontrol significativamente mayor",
+            "titleEn": "Significantly greater self-control",
+            "detailEs": "Dos meses. Tu capacidad de autocontrol ha crecido exponencialmente. Las tentaciones que antes parecían irresistibles ahora son manejables. Eres más fuerte de lo que creías posible.",
+            "detailEn": "Two months. Your capacity for self-control has grown exponentially. Temptations that once seemed irresistible are now manageable. You're stronger than you thought possible.",
+            "whyEs": "La corteza orbitofrontal (región de control de impulsos) se ha fortalecido significativamente. Dos meses de autodisciplina constante crean cambios neuronales compuestos. Tu fuerza de voluntad ya no es un esfuerzo consciente — se está convirtiendo en cableado permanente.",
+            "whyEn": "The orbitofrontal cortex (impulse control region) has significantly strengthened. Two months of consistent self-discipline create compound neural changes. Your willpower is no longer a conscious effort — it's becoming permanent wiring.",
+            "signsEs": ["Las tentaciones se sienten manejables, no abrumadoras", "Mejor regulación emocional en situaciones de estrés", "Mayor capacidad de postergar gratificación en todas las áreas", "Sentido de identidad más fuerte y definido"],
+            "signsEn": ["Temptations feel manageable, not overwhelming", "Better emotional regulation under stress", "Greater ability to delay gratification in all areas", "Stronger and more defined sense of identity"],
+            "isFree": false
+        },
+        {
+            "day": 90,
+            "titleEs": "Reinicio completo",
+            "titleEn": "Complete reset",
+            "detailEs": "El reinicio de 90 días. Tu cerebro ha tenido tiempo suficiente para recalibrarse completamente. Los receptores de dopamina están restaurados. Tu sensibilidad al placer natural ha vuelto.",
+            "detailEn": "The 90-day reset. Your brain has had enough time to fully recalibrate. Dopamine receptors are restored. Your sensitivity to natural pleasure has returned.",
+            "whyEs": "Estudios sobre la densidad de receptores de dopamina sugieren ~90 días para una recuperación significativa. La proteína DeltaFosB — que impulsa el comportamiento compulsivo — se ha degradado en gran medida. La línea base de recompensa de tu cerebro se ha reseteado esencialmente.",
+            "whyEn": "Studies on dopamine receptor density suggest ~90 days for significant recovery. The DeltaFosB protein — which drives compulsive behavior — has largely degraded. Your brain's reward baseline has essentially reset.",
+            "signsEs": ["Respuesta natural al placer completamente restaurada", "Relaciones románticas e íntimas se sienten más auténticas", "Motivación sostenida sin necesidad de estímulos artificiales", "Sensación genuina de libertad del viejo patrón"],
+            "signsEn": ["Natural pleasure response fully restored", "Romantic and intimate relationships feel more authentic", "Sustained motivation without needing artificial highs", "Genuine sense of freedom from the old pattern"],
+            "isFree": false
+        },
+        {
+            "day": 180,
+            "titleEs": "Nueva identidad consolidada",
+            "titleEn": "New identity consolidated",
+            "detailEs": "Seis meses. Ya no eres alguien que 'está dejando' el hábito. Eres alguien que simplemente no lo hace. Tu identidad ha cambiado. La disciplina es parte de quien eres.",
+            "detailEn": "Six months. You're no longer someone who is 'quitting' the habit. You're someone who simply doesn't do it. Your identity has changed. Discipline is part of who you are.",
+            "whyEs": "A los 6 meses, el cambio de conducta pasó de disciplina consciente a identidad. La investigación psicológica muestra que el cambio sostenido durante este período crea cambios duraderos en el autoconcepto. No resistes — simplemente no eres esa persona.",
+            "whyEn": "At 6 months, the behavioral change has moved from conscious discipline to identity. Psychological research shows sustained change over this period creates lasting self-concept shifts. You don't resist — you simply aren't that person.",
+            "signsEs": ["El viejo hábito se siente ajeno y distante", "Te identificas naturalmente como alguien disciplinado", "Los gatillos de recaída ya no producen respuestas automáticas", "Puedes sentir incluso aversión hacia la vieja conducta"],
+            "signsEn": ["The old habit feels foreign and distant", "You naturally identify as someone disciplined", "Relapse triggers no longer produce automatic responses", "You may even feel aversion toward the old behavior"],
+            "isFree": false
+        },
+        {
+            "day": 365,
+            "titleEs": "Un año de libertad",
+            "titleEn": "One year of freedom",
+            "detailEs": "Un año completo. Has demostrado que tienes el control total sobre tu mente y tu cuerpo. Este logro es tuyo para siempre. Eres un ejemplo de lo que es posible con disciplina.",
+            "detailEn": "One full year. You have proven that you have complete control over your mind and body. This achievement is yours forever. You are an example of what is possible with discipline.",
+            "whyEs": "Un año completo representa un recableado neurológico total. Todos los gatillos estacionales, emocionales y situacionales fueron encontrados y superados. Tu cerebro demostró que puede manejar cualquier circunstancia sin recaer.",
+            "whyEn": "A full year represents complete neurological rewiring. All seasonal, emotional, and situational triggers have been encountered and overcome. Your brain has proven it can handle any circumstance without reverting.",
+            "signsEs": ["Confianza total en tu autocontrol", "El hábito está genuinamente en el pasado", "Conexiones emocionales más profundas con otros", "Satisfacción general con tu vida significativamente mayor"],
+            "signsEn": ["Complete confidence in your self-control", "The habit is genuinely in the past", "Deeper emotional connections with others", "Overall life satisfaction significantly higher"],
+            "isFree": false
+        },
+        {
+            "day": 730,
+            "titleEs": "Dos años: Maestría sobre ti mismo",
+            "titleEn": "Two years: Mastery over yourself",
+            "detailEs": "Dos años completos. Tu disciplina ya no es un logro — es quien eres. Has atravesado cada estación, cada crisis, cada tentación, y elegiste ser libre cada vez. Tu cerebro opera con una línea base de bienestar que la mayoría nunca experimenta.",
+            "detailEn": "Two full years. Your discipline is no longer an achievement — it's who you are. You've gone through every season, every crisis, every temptation, and chose freedom each time. Your brain operates with a baseline of well-being most people never experience.",
+            "whyEs": "Dos años de abstinencia consolidan cambios epigenéticos — la expresión de tus genes se ha alterado positivamente. La densidad de materia gris en la corteza prefrontal ha aumentado mediblemente. Tu sistema de recompensa responde a estímulos naturales con la misma intensidad que antes necesitaba artificiales.",
+            "whyEn": "Two years of abstinence consolidate epigenetic changes — your gene expression has been positively altered. Gray matter density in the prefrontal cortex has measurably increased. Your reward system responds to natural stimuli with the same intensity it once needed artificial ones.",
+            "signsEs": ["Disciplina en todas las áreas de tu vida, no solo esta", "Capacidad natural de mentoría hacia otros en recuperación", "Resiliencia emocional excepcional ante adversidades", "Relaciones más profundas y auténticas que nunca"],
+            "signsEn": ["Discipline across all areas of your life, not just this one", "Natural ability to mentor others in recovery", "Exceptional emotional resilience in the face of adversity", "Deeper and more authentic relationships than ever"],
+            "isFree": false
+        },
+        {
+            "day": 1095,
+            "titleEs": "Tres años: Libertad absoluta",
+            "titleEn": "Three years: Absolute freedom",
+            "detailEs": "Mil noventa y cinco días. Llegaste a un nivel que muy pocos alcanzan. Tu cerebro se ha reconstruido completamente. La persona que empezó este viaje y la persona que eres hoy son fundamentalmente diferentes. Eres prueba viviente de que el cambio permanente es posible.",
+            "detailEn": "One thousand and ninety-five days. You've reached a level very few achieve. Your brain has completely rebuilt itself. The person who started this journey and the person you are today are fundamentally different. You are living proof that permanent change is possible.",
+            "whyEs": "Tres años representan la consolidación total. Estudios longitudinales muestran que después de 3 años, las tasas de recaída caen a niveles mínimos. Las vías neuronales del viejo hábito están esencialmente inactivas. Tu cerebro ha construido una arquitectura completamente nueva de respuesta al estrés, al placer y a la intimidad.",
+            "whyEn": "Three years represent total consolidation. Longitudinal studies show that after 3 years, relapse rates drop to minimal levels. The neural pathways of the old habit are essentially dormant. Your brain has built an entirely new architecture for responding to stress, pleasure, and intimacy.",
+            "signsEs": ["El viejo hábito se siente como otra vida", "Eres un referente de disciplina para quienes te rodean", "Bienestar emocional y mental sostenido sin esfuerzo", "Sentido de propósito y claridad de vida profundamente arraigado"],
+            "signsEn": ["The old habit feels like another life", "You're a role model of discipline for those around you", "Sustained emotional and mental well-being without effort", "A deeply rooted sense of purpose and life clarity"],
+            "isFree": false
+        }
+    ]
+}
