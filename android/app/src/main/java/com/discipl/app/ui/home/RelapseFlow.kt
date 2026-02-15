@@ -81,7 +81,7 @@ fun RelapseFlow(
                 )
                 Spacer(Modifier.height(AppSpacing.md.dp))
                 Text(
-                    text = if (language == "en") "Are you sure?" else "¿Estás seguro?",
+                    text = if (language == "en") "Did you relapse?" else "¿Relapsaste?",
                     style = AppTypography.sectionHeader,
                     color = AppColors.textPrimary,
                     textAlign = TextAlign.Center

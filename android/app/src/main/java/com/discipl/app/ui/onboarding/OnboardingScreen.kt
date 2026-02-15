@@ -851,7 +851,7 @@ private fun QuitDateScreen(state: OnboardingUiState, viewModel: OnboardingViewMo
         Spacer(Modifier.height(AppSpacing.md.dp))
 
         Text(
-            text = if (state.language == "en") "When do you start?" else "¿Cuándo empiezas?",
+            text = if (state.language == "en") "When did you start?" else "¿Cuándo comenzaste?",
             style = AppTypography.sectionHeader.copy(fontSize = 28.sp),
             color = AppColors.textPrimary,
             textAlign = TextAlign.Center
@@ -860,8 +860,8 @@ private fun QuitDateScreen(state: OnboardingUiState, viewModel: OnboardingViewMo
         Spacer(Modifier.height(AppSpacing.sm.dp))
 
         Text(
-            text = if (state.language == "en") "Choose the date you commit to change"
-            else "Elige la fecha en la que te comprometes al cambio",
+            text = if (state.language == "en") "Select today or the date you started your journey"
+            else "Selecciona hoy o la fecha en que comenzaste tu camino",
             style = AppTypography.body.copy(fontSize = 15.sp),
             color = AppColors.textSecondary,
             textAlign = TextAlign.Center

@@ -53,6 +53,8 @@ import com.discipl.app.ui.theme.AppTypography
 @Composable
 fun BenefitsTimelineScreen(
     modifier: Modifier = Modifier,
+    expandMilestoneDay: Int? = null,
+    onMilestoneExpanded: () -> Unit = {},
     viewModel: BenefitsViewModel = hiltViewModel()
 ) {
     val state by viewModel.state.collectAsState()
@@ -94,7 +96,9 @@ fun BenefitsTimelineScreen(
                     isPremium = state.isPremium,
                     language = state.language,
                     isLast = index == state.milestones.size - 1,
-                    onLockedTap = { viewModel.onPaywallHit() }
+                    expandMilestoneDay = expandMilestoneDay,
+                    onLockedTap = { viewModel.onPaywallHit() },
+                    onExpanded = onMilestoneExpanded
                 )
             }
 
@@ -110,12 +114,22 @@ private fun MilestoneCard(
     isPremium: Boolean,
     language: String,
     isLast: Boolean,
-    onLockedTap: () -> Unit
+    expandMilestoneDay: Int? = null,
+    onLockedTap: () -> Unit,
+    onExpanded: () -> Unit = {}
 ) {
     val isPassed = streakDays >= milestone.day
     val isAccessible = milestone.isFree || isPremium
     var isExpanded by remember { mutableStateOf(false) }
     val view = LocalView.current
+
+    // Auto-expand when navigated from milestone banner
+    LaunchedEffect(expandMilestoneDay) {
+        if (expandMilestoneDay != null && milestone.day == expandMilestoneDay && isPassed && isAccessible) {
+            isExpanded = true
+            onExpanded()
+        }
+    }
 
     Row(modifier = Modifier.fillMaxWidth().height(IntrinsicSize.Min)) {
         // Timeline line + circle

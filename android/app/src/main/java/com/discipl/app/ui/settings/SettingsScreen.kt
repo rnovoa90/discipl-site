@@ -21,29 +21,18 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.CalendarMonth
 import androidx.compose.material.icons.filled.ChevronRight
 import androidx.compose.material.icons.filled.Email
 import androidx.compose.material.icons.filled.Policy
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.material.icons.filled.Subscriptions
-import androidx.compose.material3.DatePicker
-import androidx.compose.material3.DatePickerDefaults
-import androidx.compose.material3.DatePickerDialog
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
-import androidx.compose.material3.SelectableDates
 import androidx.compose.material3.Switch
 import androidx.compose.material3.SwitchDefaults
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
-import androidx.compose.material3.rememberDatePickerState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -57,11 +46,8 @@ import com.discipl.app.ui.components.AnimatedBackground
 import com.discipl.app.ui.theme.AppColors
 import com.discipl.app.ui.theme.AppSpacing
 import com.discipl.app.ui.theme.AppTypography
-import java.text.SimpleDateFormat
-import java.util.Date
-import java.util.Locale
 
-@OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun SettingsScreen(
     modifier: Modifier = Modifier,
@@ -69,7 +55,7 @@ fun SettingsScreen(
 ) {
     val state by viewModel.state.collectAsState()
     val context = LocalContext.current
-    var showDatePicker by remember { mutableStateOf(false) }
+
 
     Box(modifier = modifier.fillMaxSize()) {
         AnimatedBackground()
@@ -87,20 +73,6 @@ fun SettingsScreen(
                 style = AppTypography.sectionHeader,
                 color = AppColors.textPrimary
             )
-
-            Spacer(Modifier.height(AppSpacing.lg.dp))
-
-            // Quit date
-            SettingsSection("FECHA DE INICIO") {
-                val dateFormat = SimpleDateFormat("d MMM yyyy", Locale("es", "ES"))
-                val dateStr = state.profile?.let { dateFormat.format(Date(it.quitDate)) } ?: "—"
-                SettingsRow(
-                    icon = Icons.Default.CalendarMonth,
-                    title = "Fecha de inicio",
-                    subtitle = dateStr,
-                    onClick = { showDatePicker = true }
-                )
-            }
 
             Spacer(Modifier.height(AppSpacing.lg.dp))
 
@@ -219,71 +191,6 @@ fun SettingsScreen(
         }
     }
 
-    // Date picker dialog
-    if (showDatePicker) {
-        // DatePicker works in UTC. We need today's date as UTC midnight for the constraint.
-        val todayUtcMillis = remember {
-            java.time.LocalDate.now()
-                .atStartOfDay(java.time.ZoneOffset.UTC)
-                .toInstant().toEpochMilli()
-        }
-        // Convert the stored local quit date to UTC midnight for the initial selection
-        val initialDateUtcMillis = remember(state.profile?.quitDate) {
-            val storedMillis = state.profile?.quitDate ?: System.currentTimeMillis()
-            val localDate = java.time.Instant.ofEpochMilli(storedMillis)
-                .atZone(java.time.ZoneId.systemDefault())
-                .toLocalDate()
-            localDate.atStartOfDay(java.time.ZoneOffset.UTC).toInstant().toEpochMilli()
-        }
-        val datePickerState = rememberDatePickerState(
-            initialSelectedDateMillis = initialDateUtcMillis,
-            selectableDates = object : SelectableDates {
-                override fun isSelectableDate(utcTimeMillis: Long): Boolean {
-                    return utcTimeMillis <= todayUtcMillis
-                }
-                override fun isSelectableYear(year: Int): Boolean {
-                    return year <= java.time.LocalDate.now().year
-                }
-            }
-        )
-
-        DatePickerDialog(
-            onDismissRequest = { showDatePicker = false },
-            confirmButton = {
-                TextButton(onClick = {
-                    datePickerState.selectedDateMillis?.let { utcMillis ->
-                        // Convert UTC midnight back to local midnight
-                        val localDate = java.time.Instant.ofEpochMilli(utcMillis)
-                            .atZone(java.time.ZoneOffset.UTC)
-                            .toLocalDate()
-                        val localMillis = localDate
-                            .atStartOfDay(java.time.ZoneId.systemDefault())
-                            .toInstant().toEpochMilli()
-                        viewModel.updateQuitDate(localMillis)
-                    }
-                    showDatePicker = false
-                }) {
-                    Text("Confirmar", color = AppColors.accent)
-                }
-            },
-            dismissButton = {
-                TextButton(onClick = { showDatePicker = false }) {
-                    Text("Cancelar", color = AppColors.textSecondary)
-                }
-            },
-            colors = DatePickerDefaults.colors(containerColor = AppColors.surface)
-        ) {
-            DatePicker(
-                state = datePickerState,
-                colors = DatePickerDefaults.colors(
-                    containerColor = AppColors.surface,
-                    selectedDayContainerColor = AppColors.accent,
-                    todayDateBorderColor = AppColors.accent,
-                    todayContentColor = AppColors.accent
-                )
-            )
-        }
-    }
 }
 
 @Composable

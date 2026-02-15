@@ -41,6 +41,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.draw.blur
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
@@ -62,6 +63,7 @@ fun StatsScreen(
     viewModel: StatsViewModel = hiltViewModel()
 ) {
     val state by viewModel.state.collectAsState()
+    val context = LocalContext.current
     var showStreakHistory by remember { mutableStateOf(false) }
     var showPaywall by remember { mutableStateOf(false) }
 
@@ -229,6 +231,11 @@ fun StatsScreen(
                     .clickable {
                         if (state.isPremium) {
                             viewModel.onShareCardCreated()
+                            ShareCardGenerator.generateAndShare(
+                                context = context,
+                                streakDays = state.currentStreakDays,
+                                language = state.language
+                            )
                         } else {
                             showPaywall = true
                         }

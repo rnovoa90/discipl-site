@@ -83,6 +83,7 @@ import kotlin.math.sin
 fun HomeScreen(
     modifier: Modifier = Modifier,
     onNavigateToTab: (Int) -> Unit = {},
+    onNavigateToBenefitsMilestone: (Int) -> Unit = {},
     viewModel: HomeViewModel = hiltViewModel()
 ) {
     val state by viewModel.state.collectAsState()
@@ -131,7 +132,9 @@ fun HomeScreen(
 
             // Milestone celebration
             state.currentMilestone?.let { milestone ->
-                MilestoneCelebrationCard(milestone, state.language)
+                MilestoneCelebrationCard(milestone, state.language) {
+                    onNavigateToBenefitsMilestone(milestone.day)
+                }
                 Spacer(Modifier.height(AppSpacing.lg.dp))
             }
 
@@ -365,13 +368,14 @@ private fun StreakCounter(streakDays: Int, language: String) {
 }
 
 @Composable
-private fun MilestoneCelebrationCard(milestone: com.discipl.app.data.model.Milestone, language: String) {
+private fun MilestoneCelebrationCard(milestone: com.discipl.app.data.model.Milestone, language: String, onClick: () -> Unit) {
     Column(
         modifier = Modifier
             .fillMaxWidth()
             .clip(RoundedCornerShape(12.dp))
             .background(AppColors.success.copy(alpha = 0.1f))
             .border(1.dp, AppColors.success.copy(alpha = 0.3f), RoundedCornerShape(12.dp))
+            .clickable(onClick = onClick)
             .padding(AppSpacing.md.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {

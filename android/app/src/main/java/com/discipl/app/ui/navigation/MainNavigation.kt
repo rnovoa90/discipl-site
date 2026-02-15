@@ -17,6 +17,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
@@ -48,6 +50,7 @@ val tabs = listOf(
 @Composable
 fun MainNavigation() {
     var selectedTab by rememberSaveable { mutableIntStateOf(0) }
+    var expandMilestoneDay by remember { mutableStateOf<Int?>(null) }
 
     Scaffold(
         containerColor = AppColors.background,
@@ -82,9 +85,17 @@ fun MainNavigation() {
         when (selectedTab) {
             0 -> HomeScreen(
                 modifier = Modifier.padding(innerPadding),
-                onNavigateToTab = { selectedTab = it }
+                onNavigateToTab = { selectedTab = it },
+                onNavigateToBenefitsMilestone = { day ->
+                    expandMilestoneDay = day
+                    selectedTab = 1
+                }
             )
-            1 -> BenefitsTimelineScreen(modifier = Modifier.padding(innerPadding))
+            1 -> BenefitsTimelineScreen(
+                modifier = Modifier.padding(innerPadding),
+                expandMilestoneDay = expandMilestoneDay,
+                onMilestoneExpanded = { expandMilestoneDay = null }
+            )
             2 -> StatsScreen(modifier = Modifier.padding(innerPadding))
             3 -> JournalScreen(modifier = Modifier.padding(innerPadding))
             4 -> SettingsScreen(modifier = Modifier.padding(innerPadding))
